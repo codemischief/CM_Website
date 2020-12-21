@@ -1,0 +1,367 @@
+/* Navbar */
+
+.codemischief__logo{
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Title */
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.code__title{
+    padding: 3% 10%;
+}
+
+.title{
+    margin-top: 4rem;
+}
+
+.code__para{
+    margin: 5% 3% 5% 0;
+    width: 300px;
+    word-wrap: break-word;
+    color: #707070;
+}
+
+.btn {
+    border: 1px solid #18C5BF !important;
+    border-radius: 15px;
+    background-color: white;
+    /* color: black; */
+    /* padding: 14px 28px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+
+
+.we__color{
+    color: #5200C6;
+}
+
+.buss__color{
+    color: #18C5BF;
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 0 2rem;
+}
+
+.navigationbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.navigationbar{
+    margin: 3% 8% 0%;
+}
+
+
+/* Our offer */
+
+
+#ouroffer{
+    margin : 3% 15%;
+    text-align: center;
+}
+
+ /* What we do  */
+
+#atcodemischief{
+    padding: 100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.code__card {
+    margin-top: 5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 3px solid #5200C6;
+    border-radius: 12px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card__container {
+    padding: 2px 16px;
+  }
+
+.tech__description{
+ margin-bottom: 5rem;
+ padding-top: 3rem;
+}
+
+ .work-card{
+    padding: 3% 2%;
+} 
+
+.star-design{
+    text-align: center;
+    background-color: #1CE3DC;
+    color: white;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+.card__container>.star-design{
+    padding: 2rem 0rem;
+    width: 100px;  
+}
+
+
+/* let's talk */
+
+#letstalk{
+    /* margin : 3% 15%; */
+    text-align: center;
+    background-color: #5200C6;
+    color: white;
+    opacity: 1;
+    /* margin-bottom: 5rem; */
+}
+
+.talkButton{
+    background-color: #1CE3DC;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+}
+
+.talkButton:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+.talk__box{
+    padding-top: 4rem;
+}
+
+.talk{
+    padding: 5rem 0 3rem ;
+}
+
+/* click Here */
+
+#clickhere{
+    text-align: center;
+    background-color: #18C5BF;
+    color: white;
+    opacity: 1;
+}
+
+.clickButton{
+    background-color: #5200C6;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+}
+
+.clickButton:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+.container-image {
+    /* max-width: 1200px; */
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    /* Safari */
+    justify-content: center;
+    margin: 0 10rem;
+    
+  }
+  
+  .img-talk {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #imageshere{
+    background-color: #18C5BF;
+    /* margin-bottom: 8rem;  */
+    border-bottom-left-radius: 200px;
+  }
+
+  /* Process */
+
+  #process{
+    text-align: center;
+    background-color: #E5EFFD;
+    opacity: 1;
+  }
+
+  .process__text{
+      padding: 17rem 0;
+      opacity: 1;
+  }
+
+  /* Testimonials */
+
+  #testimonial{
+      text-align: center;
+      padding: 100px;
+  }
+
+  .testimonial__heading{
+      padding-bottom: 5rem;
+  }
+
+
+  .test__one{
+      width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 3rem 0;
+  }
+
+  .test__roundedimage{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: contain;
+  }
+
+  .test__detail{
+      padding: 3rem;
+  }
+
+  .test__name{
+      padding-top: 2rem;
+  }
+
+  /* Let's Start */
+
+  #letstart{
+    text-align: center;
+    background-color: #18C5BF;
+    color: white;
+    
+  }
+
+  .letstart__heading{
+      padding-top: 5rem;
+  }
+
+  /* Footer */
+
+  #footer{
+      background-color: #E5EFFD;
+      padding: 100px 0 50px 100px;
+  }
+
+  .footer__logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .codemischief__logofooter{
+      width: 100px;
+      height: auto;
+      object-fit: contain;
+  }
+
+  .strip{
+      background-color:#18C5BF ;
+      flex: 1;
+      padding:30px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      margin-left: 1rem;
+  }
+
+  .striptwo{
+    margin-top: 3rem;
+    padding:60px;
+    border-top-left-radius: 25px;
+    margin-left: 7rem;
+    background-color: #2C01D6;
+    display: flex;
+    /* align-items: center; */
+    /* flex: 1; */
+  }
+
+  .subscribe{
+      color: white;
+      /* display: flex;
+      align-items: center; */
+  }
+
+
+  .subscribe_button{
+    background-color: #18C5BF;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }  
+
+  input[type=email] {
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input:focus{
+    outline: none;
+}
+
+.subscribe_button:focus{
+    outline: none;
+}
+
+#footer__information{
+    background-color: #E5EFFD;
+}
+
+.information{
+    padding: 3% 10% 3% 20%;
+}
+
+.footer__address{
+display: flex;
+}
+
+.addy{
+    margin-left: 2rem;
+}
+
+.tele{
+    margin-left: 1rem;
+}
+
+.copyright{
+    text-align: center;
+}
