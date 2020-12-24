@@ -93,6 +93,10 @@ h1{
     
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
 
 #letstalk{
     /* margin : 3% 15%; */

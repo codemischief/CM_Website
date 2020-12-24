@@ -70,6 +70,12 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
+
+
 #youmayask{
     margin-top: 6rem;
 }
@@ -192,6 +198,11 @@ margin-top: 3rem;
 
   .letstart__heading{
       padding-top: 5rem;
+      padding-bottom: 3rem;
+  }
+
+  .talk{
+      padding-top: 3rem;
   }
 
   /* Footer */

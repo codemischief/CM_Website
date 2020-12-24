@@ -16,12 +16,13 @@ h1{
 }
 
 .code__title{
-    padding: 3% 10%;
-    background-color: #E5EFFD;
+    padding: 0% 10%;
 }
 
 .title{
-    margin-top: 4rem;
+    font-size: 46px;
+    font-weight: bold;
+    width: 500px;
 }
 
 .code__para{
@@ -51,6 +52,9 @@ h1{
     color: #5200C6;
 }
 
+.buss__color{
+    color: #18C5BF;
+}
 
 /* Navbar */
 .navbar{
@@ -75,153 +79,77 @@ h1{
     color: white !important;
    }
 
-#youmayask{
-    margin-top: 6rem;
-}
 
-.title__ask{
+#testimonial{
     text-align: center;
+    padding: 100px;
 }
 
-.branding{
-    padding: 3% 10%;
+.testimonial__heading{
+    padding-bottom: 5rem;
 }
 
-.brand{
-    height: 100px;
+
+.test__one{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 3rem 0;
+}
+
+.test__roundedimage{
     width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: contain;
+}
+
+.test__detail{
+    padding: 3rem;
+}
+
+.test__name{
+    padding-top: 2rem;
+}
+
+#techStack{
+    padding-top: 3rem;
+}
+
+.tech{
+    text-align: center;
+}
+
+.child_box{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.parent {
+    display: flex; /* displays flex-items (children) inline */
+    padding: 3% 10%;
+  }
+  
+  .child {
+    flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
+    /* text-align: center; */
+    /* border: 1px solid; */
+    /* margin-right: 4%; */
     
-}
+  }
 
+  .child__desc{
+    margin-right: 4%;
+    margin-top: 5rem;
+  }
 
-#letstalk{
-    /* margin : 3% 15%; */
+  .child_box{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     text-align: center;
-    background-color: #5200C6;
-    color: white;
-    opacity: 1;
-    /* margin-bottom: 5rem; */
-}
-
-.talkButton{
-    background-color: #1CE3DC;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    padding: 8px 25px;
-}
-
-.talkButton:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-
-.talk__box{
-    padding-top: 4rem;
-}
-
-.talk{
-    padding: 5rem 0 3rem ;
 }
 
 
-#clickhere{
-    text-align: center;
-    background-color: #18C5BF;
-    color: white;
-    opacity: 1;
-}
-
-.clickButton{
-    background-color: #5200C6;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    padding: 8px 25px;
-}
-
-.clickButton:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-   /* Process */
-
-   #process{
-    text-align: center;
-    background-color: #E5EFFD;
-    opacity: 1;
-  }
-
-  .process__text{
-      padding: 17rem 0;
-      opacity: 1;
-  }
-
-  /* Testimonials */
-
-  #testimonial{
-      text-align: center;
-      padding: 100px;
-  }
-
-  .testimonial__heading{
-      padding-bottom: 5rem;
-  }
-
-
-  .test__one{
-      width: 100%;
-      height: auto;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-      padding: 3rem 0;
-  }
-
-  .test__roundedimage{
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: contain;
-  }
-
-  .test__detail{
-      padding: 3rem;
-  }
-
-  .test__name{
-      padding-top: 2rem;
-  }
-
-  #piechart{
-      background-color: #E5EFFD;
-  }
-
-  .pointsandpara{
-      margin-bottom:3rem ;
-  }
-
-  .list__cicle {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
- .list__cicle>li {
-    padding-left: 1em; 
-    text-indent: -.7em;
-  }
-  
-  .list__cicle>li::before {
-    content: "○ ";
-    color: #5200C6; /* or whatever color you prefer */
-  }
-
-  /* Let's Start */
-
-  #letstart{
+#letstart{
     text-align: center;
     background-color: #18C5BF;
     color: white;
@@ -329,3 +257,17 @@ display: flex;
 .copyright{
     text-align: center;
 }
+
+.clickButton{
+    background-color: #5200C6;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    margin: 5rem 0;
+}
+
+.clickButton:focus {
+    outline: none;
+    box-shadow: none;
+  }

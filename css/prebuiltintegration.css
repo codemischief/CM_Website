@@ -73,6 +73,12 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
+
+
 #process{
     text-align: center;
     background-color: #E5EFFD;

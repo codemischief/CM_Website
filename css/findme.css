@@ -73,6 +73,10 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
 
 #findme{
     background-color: #E5EFFD;
@@ -120,8 +124,6 @@ h1{
 .features__desc{
     padding: 3rem 0;
 }
-
-
 
 #process{
     text-align: center;

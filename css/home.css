@@ -72,6 +72,11 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
+
 
 /* Our offer */
 
@@ -126,6 +131,11 @@ h1{
 .card__container>.star-design{
     padding: 2rem 0rem;
     width: 100px;  
+}
+
+.card-link{
+    text-decoration: none;
+    color: black;
 }
 
 

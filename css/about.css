@@ -76,6 +76,12 @@ h1{
     padding: 3% 10%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
+
+
 .icon{
     display: flex;
     align-items: center;
