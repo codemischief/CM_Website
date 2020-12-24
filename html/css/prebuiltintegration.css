@@ -1,0 +1,320 @@
+/* Navbar */
+
+.codemischief__logo{
+    width: 100px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* Title */
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.code__title{
+    padding: 3% 10%;
+    background-color: #E5EFFD;
+}
+
+.title{
+    margin-top: 4rem;
+}
+
+.code__para{
+    margin: 5% 3% 5% 0;
+    width: 300px;
+    word-wrap: break-word;
+    color: #707070;
+}
+
+.btn {
+    border: 1px solid #18C5BF !important;
+    border-radius: 15px;
+    background-color: white;
+    /* color: black; */
+    /* padding: 14px 28px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.default {
+    border-color: #e7e7e7;
+    color: black;
+  }
+
+
+.we__color{
+    color: #5200C6;
+}
+
+.buss__color{
+    color: #18C5BF;
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 0 2rem;
+}
+
+.navigationbar-brand{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.navigationbar{
+    margin: 3% 8% 0%;
+}
+
+#process{
+    text-align: center;
+    background-color: #E5EFFD;
+    opacity: 1;
+  }
+
+  .process__text{
+      padding: 5rem 0;
+      opacity: 1;
+  }
+
+  #nityaauth{
+      background-color: #E5EFFD;
+  }
+
+
+.nityaproduct{
+    width: 100%; 
+    max-width: 400px;
+    display:block; 
+    height: auto;
+}
+
+/* .code__title{
+    padding: 3% 10%;
+} */
+/* 
+.title{
+    margin-top: 4rem;
+} */
+
+.nitya__para{
+    margin: 5% 3% 5% 0;
+    width: 450px;
+    word-wrap: break-word;
+    color: #707070;
+}
+
+.knowMore{
+    background-color: #2C01D6; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+
+.know__button{
+    margin-bottom: 5rem;
+}
+
+#nityapay{
+    /* margin-top: 5rem; */
+    background-color:#E5EFFD;
+}
+
+
+#testimonial{
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.testimonial__heading{
+    padding-bottom: 5rem;
+}
+
+
+.test__one{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 3rem 0;
+}
+
+.test__roundedimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.test__detail{
+    padding: 3rem;
+}
+
+.test__name{
+    padding-top: 2rem;
+}
+
+#technology{
+    margin-top: 1rem;
+}
+.tech{
+    text-align: center;
+}
+
+.tech__images{
+    display: flex;
+    align-items: center;
+}
+
+.tech__images>img{
+    width: 50%;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.col1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);  
+}
+
+.container-tech{
+    padding: 3% 10%;
+}
+
+/* Let's start */
+
+#letstart{
+    text-align: center;
+    background-color: #18C5BF;
+    color: white;
+    
+  }
+
+  .letstart__heading{
+      padding-top: 5rem;
+  }
+
+  /* Footer */
+
+  #footer{
+      background-color: #E5EFFD;
+      padding: 100px 0 50px 100px;
+  }
+
+  .footer__logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .codemischief__logofooter{
+      width: 100px;
+      height: auto;
+      object-fit: contain;
+  }
+
+  .strip{
+      background-color:#18C5BF ;
+      flex: 1;
+      padding:30px;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+      margin-left: 1rem;
+  }
+
+  .striptwo{
+    margin-top: 3rem;
+    padding:60px;
+    border-top-left-radius: 25px;
+    margin-left: 7rem;
+    background-color: #2C01D6;
+    display: flex;
+    /* align-items: center; */
+    /* flex: 1; */
+  }
+
+  .subscribe{
+      color: white;
+      /* display: flex;
+      align-items: center; */
+  }
+
+
+  .subscribe_button{
+    background-color: #18C5BF;
+    color: white;
+    font-size: 16px;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }  
+
+  input[type=email] {
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input:focus{
+    outline: none;
+}
+
+.subscribe_button:focus{
+    outline: none;
+}
+
+#footer__information{
+    background-color: #E5EFFD;
+}
+
+.information{
+    padding: 3% 10% 3% 20%;
+}
+
+.footer__address{
+display: flex;
+}
+
+.addy{
+    margin-left: 2rem;
+}
+
+.tele{
+    margin-left: 1rem;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.clickButton{
+    background-color: #5200C6;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    margin: 3rem 0;
+}
+
+.clickButton:focus {
+    outline: none;
+    box-shadow: none;
+  }
