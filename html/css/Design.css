@@ -162,6 +162,10 @@ h1{
 
 }
 
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #18C5BF;
+}
 
 .team{
     padding: 3% 10%;
