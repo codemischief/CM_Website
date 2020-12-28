@@ -16,12 +16,13 @@ h1{
 }
 
 .code__title{
-    padding: 3% 10%;
-    background-color: #E5EFFD;
+    padding: 0% 10%;
 }
 
 .title{
-    margin-top: 4rem;
+    font-size: 46px;
+    font-weight: bold;
+    width: 500px;
 }
 
 .code__para{
@@ -73,182 +74,80 @@ h1{
     margin: 3% 8% 0%;
 }
 
-#youmayask{
-    padding-top: 5rem;
-}
-
-.title__ask{
-    text-align: center;
-}
-
-.branding{
-    padding: 3% 10%;
-}
-
-.brand{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: contain;
-    
-}
-
 .dropdown-menu a:hover {
     background-color:#18C5BF !important;
     color: white !important;
    }
 
-#letstalk{
-    /* margin : 3% 15%; */
+
+#testimonial{
     text-align: center;
-    background-color: #5200C6;
-    color: white;
-    opacity: 1;
-    /* margin-bottom: 5rem; */
+    padding: 100px;
 }
 
-.talkButton{
-    background-color: #1CE3DC;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    padding: 8px 25px;
-}
-
-.talkButton:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-
-.talk__box{
-    padding-top: 4rem;
-}
-
-.talk{
-    padding: 5rem 0 3rem ;
+.testimonial__heading{
+    padding-bottom: 5rem;
 }
 
 
-#keywordorfeature{
-    background-color: #18C5BF;
-    padding-top: 5%;
-}
-
-.feature{
-    padding: 3% 10%;
-}
-
-.accordion-image{
+.test__one{
     width: 100%;
-    max-width: 500px;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 3rem 0;
 }
 
-.accordion-button{
-    border: none;
-}
-
-.accordion-button:focus{
-    outline: none;
-    box-shadow: none;
-      
-}
-
-.usericon{
-    margin-right: 15px;
-    font-size:15px;
-    object-fit : contain;
-
-}
-
-
-.team{
-    padding: 3% 10%;
-}
-
-.team_description{
-    margin-bottom: 3rem;
-}
-
-.team__rowone{
-  /* padding: 16px; */
-    margin-left: 1rem;
-    
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  .team__roundedimage{
+.test__roundedimage{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: contain;
-    /* margin-right: 3rem; */
 }
 
-#clickhere{
+.test__detail{
+    padding: 3rem;
+}
+
+.test__name{
+    padding-top: 2rem;
+}
+
+#techStack{
+    padding-top: 3rem;
+}
+
+.tech{
     text-align: center;
-    background-color: #18C5BF;
-    color: white;
-    opacity: 1;
 }
 
-.clickButton{
-    background-color: #5200C6;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    padding: 8px 25px;
-}
-
-.clickButton:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-  #process{
+.child_box{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     text-align: center;
-    background-color: #E5EFFD;
-    opacity: 1;
+}
+
+.parent {
+    display: flex; /* displays flex-items (children) inline */
+    padding: 3% 10%;
+  }
+  
+  .child {
+    flex-grow: 1; /* each flex-item grows and takes 1/3 of the parent's width */
+    /* text-align: center; */
+    /* border: 1px solid; */
+    /* margin-right: 4%; */
+    
   }
 
-  .process__text{
-      padding: 17rem 0;
-      opacity: 1;
+  .child__desc{
+    margin-right: 4%;
+    margin-top: 5rem;
   }
 
-
-  #piechart{
-    background-color: #E5EFFD;
+  .child_box{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
 }
 
-.pointsandpara{
-    margin-bottom:3rem ;
-}
-
-.list__cicle {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.list__cicle>li {
-  padding-left: 1em; 
-  text-indent: -.7em;
-}
-
-.list__cicle>li::before {
-  content: "○ ";
-  color: #5200C6; /* or whatever color you prefer */
-}
-
-
-/* Let's Start */
 
 #letstart{
     text-align: center;
@@ -359,4 +258,16 @@ display: flex;
     text-align: center;
 }
 
-    
+.clickButton{
+    background-color: #5200C6;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    margin: 5rem 0;
+}
+
+.clickButton:focus {
+    outline: none;
+    box-shadow: none;
+  }

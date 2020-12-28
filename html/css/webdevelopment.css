@@ -70,6 +70,10 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
 
 #youmayask{
     margin-top: 6rem;
@@ -122,6 +126,39 @@ h1{
 .talk{
     padding: 5rem 0 3rem ;
 }
+
+#keywordorfeature{
+    background-color: #18C5BF;
+    padding-top: 5%;
+}
+
+.feature{
+    padding: 3% 10%;
+}
+
+.accordion-image{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.accordion-button{
+    border: none;
+}
+
+.accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+      
+}
+
+.usericon{
+    margin-right: 15px;
+    font-size:15px;
+    object-fit : contain;
+
+}
+
 
 
 #clickhere{

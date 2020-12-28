@@ -55,6 +55,8 @@ h1{
 }
 
 /* Navbar */
+
+
 .navbar{
     padding: 0 0 2rem;
 }
@@ -71,6 +73,11 @@ h1{
 .navigationbar{
     margin: 3% 8% 0%;
 }
+
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
 
 
 /* Our offer */
@@ -126,6 +133,11 @@ h1{
 .card__container>.star-design{
     padding: 2rem 0rem;
     width: 100px;  
+}
+
+.card-link{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -303,14 +315,10 @@ h1{
     margin-left: 7rem;
     background-color: #2C01D6;
     display: flex;
-    /* align-items: center; */
-    /* flex: 1; */
   }
 
   .subscribe{
       color: white;
-      /* display: flex;
-      align-items: center; */
   }
 
 
@@ -351,7 +359,7 @@ h1{
 }
 
 .footer__address{
-display: flex;
+    display: flex;
 }
 
 .addy{

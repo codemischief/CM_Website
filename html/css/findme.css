@@ -8,7 +8,6 @@
 
 /* Title */
 
-
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -73,6 +72,10 @@ h1{
     margin: 3% 8% 0%;
 }
 
+.dropdown-menu a:hover {
+    background-color:#18C5BF !important;
+    color: white !important;
+   }
 
 #findme{
     background-color: #E5EFFD;
@@ -121,8 +124,6 @@ h1{
     padding: 3rem 0;
 }
 
-
-
 #process{
     text-align: center;
     background-color: #E5EFFD;
@@ -146,14 +147,6 @@ h1{
     height: auto;
 }
 
-/* .code__title{
-    padding: 3% 10%;
-} */
-/* 
-.title{
-    margin-top: 4rem;
-} */
-
 .nitya__para{
     margin: 5% 3% 5% 0;
     width: 450px;
@@ -162,7 +155,7 @@ h1{
 }
 
 .knowMore{
-    background-color: #2C01D6; /* Green */
+    background-color: #2C01D6; 
     border: none;
     color: white;
     text-align: center;
