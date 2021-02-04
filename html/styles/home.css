@@ -131,6 +131,96 @@ h1{
 
 /* What we do */
 
+#ourrole{
+    padding: 5% 8%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000000DE;
+}
+
+.parent{
+display: -webkit-box;   
+display: -moz-box; 
+display: -ms-flexbox;  
+display: -webkit-flex;
+display: flex;  
+
+-webkit-justify-content: center;
+-moz-justify-content: center;
+justify-content: center;
+-webkit-align-items: center;
+-moz-align-items: center;
+align-items: center;
+-webkit-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
+flex-wrap: wrap;
+
+}
+
+.work-card{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid  #B7CC31;;
+    background-color: white;
+    /* border-image: linear-gradient(0deg,#18C5BF,#B7CC31);
+    border-image-slice:1; */
+    /* background-image: linear-gradient(0deg,#18C5BF,#B7CC31);
+    background-origin: border-box;
+    background-clip: content-box, border-box; */
+    transition: all 0.3s ease-in;
+    box-shadow: 0px 7px 30px #AAAAAA29;
+    border-radius: 15px !important;
+}
+
+/* .work-card::before{
+    content: '';
+    border-radius: 15px !important;
+    height: 120%;
+    width: 120%;
+    background-image: -webkit-linear-gradient(
+        to bottom right,
+        #ff4b2b,
+        #ff416c
+    );
+
+    background-image: linear-gradient(
+        to bottom right,
+        #ff4b2b,
+        #ff416c
+    );
+    left: -10%;
+    top: -10%;
+    z-index: -1;
+
+} */
+
+.parent:hover .work-card {
+    transform: scale(0.9);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+.parent .work-card:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+
+.role__business{
+    padding: 42px 5px;
+}
+
+.role__description{
+    padding: 0px 20px;
+}
+
+.someicon{
+    position:absolute;
+    top: 45px;
+}
+
+
 /* What we do */
 
 
@@ -284,6 +374,7 @@ h4{
 
 
 /* Nithya Product Intro */
+
 
 
 
