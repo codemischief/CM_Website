@@ -1,0 +1,292 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+} 
+
+h2,h3{
+    font-family: 'Overpass', sans-serif;
+}
+
+
+/* Navbar */
+
+#navbar {
+    padding: 2% 7%;
+}
+
+.navlogo{
+    object-fit: contain !important;
+    width: 160px !important;
+}
+
+.dropdown-item{
+    padding: 8px !important;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.dropdown-menu a:hover {
+    background-color:#B7CC31 !important;
+    color: white !important;
+    border-radius: 7px !important;
+   }
+
+   ul li a:hover, ul li a:focus {
+    color:#B7CC31 !important;
+   }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.active a{
+    color:#B7CC31 !important;
+}
+
+.boldfont{
+    font-weight: bold;
+    color: #666666 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#talkfont{
+    color:  #B7CC31;
+}
+ 
+#talkfont:hover {
+    background-color: #fff;
+}
+
+.borderless {
+    border: 0 none;
+  }
+
+.talkbutton{
+    /* margin-right: 3rem; */
+    color: #B7CC31;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+.talkbutton:focus,
+.talkbutton:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Navbar */
+
+
+/* Title */
+
+#head{
+    padding: 0 8%;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title{
+    margin-top: 15rem;
+}
+
+.top__box{
+    margin-top: 9rem;
+}
+
+.head__image{
+    display: block;
+    max-width: 100%;
+    /* max-height: 300px; */
+    height: auto;
+}
+
+.head__learn{
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.head__learn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.head__learn:focus,
+.head__learn:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+/* Title */
+
+/* Our Products */
+
+#nityaauth{
+    padding: 3% 8%;
+}
+
+
+.nitya__head{
+    padding-bottom: 2rem;
+}
+
+.nityaauth_head{
+    margin-bottom: 5rem;
+}
+
+/* .nitya__image{
+    padding-top: 10rem;
+} */
+
+.nityaproduct{
+    width: 100%; 
+    max-width: 400px;
+    display:block; 
+    height: auto;
+    object-fit: contain;
+}
+
+.nitya__description{
+    width: 430px;
+    word-wrap: break-word;
+    color: #707070;
+}  
+
+ .knowMore{
+    background-color: #B7CC31;; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 24px;
+}
+
+.know__button{
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+} 
+
+.knowMore:focus,
+.knowMore:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Our Products */
+
+
+/* Nithya Authorization Description */
+
+#nithyaAuthDescription{
+    padding: 3% 8%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000000DE;
+}
+
+.Authorization{
+    margin-top: 5rem;
+}
+
+
+.Authorization__description{
+    padding: 3rem 0rem;
+    text-align: left;
+}
+
+/* Nithya Authorization Description */
+
+
+
+#nitya__featues{
+padding: 0% 8%;
+/* text-align: center; */
+}
+
+.icon__image{
+width: 50px;
+height: 50px;
+object-fit: contain;
+}
+
+.features__images{
+    display: flex; /* Magic begins */
+  flex-direction: row;
+ /* justify-content: center;  Center in main axis */
+  justify-content: space-between;
+  align-items: center; /* Center in cross axis */
+ 
+}
+
+.nitya__subhead{
+    padding: 2rem 0;
+}
+
+.nitya__subheadingdescription{
+    padding-bottom: 2rem;
+}
+
+/* Nithya Authorization Description */
+
+
+/* Our Products */
+
+#nityaauth{
+    padding: 13% 8%;
+}
+
+
+.nitya__head{
+    padding-bottom: 2rem;
+}
+
+.nityaauth_head{
+    margin-bottom: 5rem;
+}
+
+/* .nitya__image{
+    padding-top: 10rem;
+} */
+
+.nityaproduct{
+    width: 100%; 
+    max-width: 400px;
+    display:block; 
+    height: auto;
+    object-fit: contain;
+}
+
+.nitya__description{
+    width: 430px;
+    word-wrap: break-word;
+    color: #707070;
+}  
+
+
+/* Our Products */
+

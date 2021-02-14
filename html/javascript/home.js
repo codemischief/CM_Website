@@ -5,6 +5,10 @@ $(document).ready(function(){
             dropdownMenu.parent().toggleClass("open");
         }
     });
+
+    // $('#btn_click').on('click', function() { window.location = 'http://www.google.com'; })
+
 });     
 
 
+    

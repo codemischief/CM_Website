@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1461" height="2474.5" viewBox="0 0 1461 2474.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="193" height="1976" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="198" height="1976" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1280" data-name="Group 1280" transform="translate(-287 -6955)">
+    <line id="Line_25" data-name="Line 25" y2="2108" transform="translate(964.5 7068.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="13"/>
+    <g id="Ellipse_6093" data-name="Ellipse 6093" transform="translate(930 7034)" fill="#b7cc31" stroke="#707070" stroke-width="1">
+      <circle cx="34" cy="34" r="34" stroke="none"/>
+      <circle cx="34" cy="34" r="33.5" fill="none"/>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(770 7199.5)" clip-path="url(#clip-path)">
+      <g transform="translate(-806.5 -7218.5)">
+        <g id="Group_1156" data-name="Group 1156">
+          <line id="Line_26" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-616.5 -7218.5)">
+        <g id="Group_1156-2" data-name="Group 1156">
+          <line id="Line_26-2" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-2" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -6713.5)">
+        <g id="Group_1156-3" data-name="Group 1156">
+          <line id="Line_26-3" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-3" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-616.5 -6713.5)">
+        <g id="Group_1156-4" data-name="Group 1156">
+          <line id="Line_26-4" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-4" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -6208.5)">
+        <g id="Group_1156-5" data-name="Group 1156">
+          <line id="Line_26-5" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-5" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-616.5 -6208.5)">
+        <g id="Group_1156-6" data-name="Group 1156">
+          <line id="Line_26-6" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-6" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -5703.5)">
+        <g id="Group_1156-7" data-name="Group 1156">
+          <line id="Line_26-7" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-7" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-616.5 -5703.5)">
+        <g id="Group_1156-8" data-name="Group 1156">
+          <line id="Line_26-8" data-name="Line 26" x1="158" transform="translate(841.5 7239.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-8" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(806.5 7218.5)" fill="#b7cc31"/>
+        </g>
+      </g>
+    </g>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(966 7453.5)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-806.5 -7218.5)">
+        <g id="Group_1156-9" data-name="Group 1156" transform="translate(806.5 7218.5)">
+          <line id="Line_26-9" data-name="Line 26" x2="158" transform="translate(0 21)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-9" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(151)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -6713.5)">
+        <g id="Group_1156-10" data-name="Group 1156" transform="translate(806.5 7218.5)">
+          <line id="Line_26-10" data-name="Line 26" x2="158" transform="translate(0 21)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-10" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(151)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -6208.5)">
+        <g id="Group_1156-11" data-name="Group 1156" transform="translate(806.5 7218.5)">
+          <line id="Line_26-11" data-name="Line 26" x2="158" transform="translate(0 21)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-11" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(151)" fill="#b7cc31"/>
+        </g>
+      </g>
+      <g transform="translate(-806.5 -5703.5)">
+        <g id="Group_1156-12" data-name="Group 1156" transform="translate(806.5 7218.5)">
+          <line id="Line_26-12" data-name="Line 26" x2="158" transform="translate(0 21)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="6"/>
+          <circle id="Ellipse_6094-12" data-name="Ellipse 6094" cx="21" cy="21" r="21" transform="translate(151)" fill="#b7cc31"/>
+        </g>
+      </g>
+    </g>
+    <text id="_1." data-name="1." transform="translate(621 7165)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-62.2" y="0">1.</tspan></text>
+    <text id="_2." data-name="2." transform="translate(1341 7435)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-83.4" y="0">2.</tspan></text>
+    <text id="_3." data-name="3." transform="translate(630 7680)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-85.9" y="0">3.</tspan></text>
+    <text id="_4." data-name="4." transform="translate(1344 7960)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-92.1" y="0">4.</tspan></text>
+    <text id="_5." data-name="5." transform="translate(621 8195)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-90.4" y="0">5.</tspan></text>
+    <text id="_6." data-name="6." transform="translate(1358 8431)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-90" y="0">6.</tspan></text>
+    <text id="_7." data-name="7." transform="translate(637 8729)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-80.8" y="0">7.</tspan></text>
+    <text id="_8." data-name="8." transform="translate(1349 8936)" fill="#b7cc31" font-size="200" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-90.3" y="0">8.</tspan></text>
+    <text id="conceptual_sketches" data-name="conceptual 
+sketches" transform="translate(602 7221)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-137.258" y="0">Conceptual </tspan><tspan x="-103.576" y="60">Sketches</tspan></text>
+    <text id="grid_structure" data-name="grid structure" transform="translate(1395 7500)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-159.016" y="0">Grid Structure</tspan></text>
+    <text id="visual_language_guidelines" data-name="visual language 
+guidelines" transform="translate(575 7748)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-193.864" y="0">Visual Language </tspan><tspan x="-120.208" y="60">Guidelines</tspan></text>
+    <text id="ui_elements" data-name="ui elements" transform="translate(1389 8025)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-131.494" y="0">Ui Elements</tspan></text>
+    <text id="clickable_prototype" data-name="clickable prototype" transform="translate(510 8262)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-222.662" y="0">Clickable Prototype</tspan></text>
+    <text id="user_testing" data-name="user testing" transform="translate(1395 8504)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-139.436" y="0">User Testing</tspan></text>
+    <text id="UI_design" data-name="UI design" transform="translate(606 8794)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-104.742" y="0">UI Design</tspan></text>
+    <text id="developers_hand-off" data-name="developers hand-off" transform="translate(1509 9003)" fill="rgba(0,0,0,0.87)" font-size="44" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-238.898" y="0">Developers Hand-Off</tspan></text>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(1008 9232) rotate(180)" fill="#666">
+      <path d="M 89.08416748046875 69.5 L 0.9158302545547485 69.5 L 45 0.9246248602867126 L 89.08416748046875 69.5 Z" stroke="none"/>
+      <path d="M 45 1.849258422851563 L 1.8316650390625 69 L 88.1683349609375 69 L 45 1.849258422851563 M 45 0 L 90 70 L 0 70 L 45 0 Z" stroke="none" fill="#707070"/>
+    </g>
+  </g>
+</svg>

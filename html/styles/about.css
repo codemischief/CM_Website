@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tech__stack{
+    font-family: 'Poppins', sans-serif !important;
+    /* font-size: 28px; */
+}
+p{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+} 
+
+h2,h3{
+    font-family: 'Overpass', sans-serif;
+}
+
+
+/* Navbar */
+
+#navbar {
+    padding: 2% 7%;
+}
+
+.navlogo{
+    object-fit: contain !important;
+    width: 160px !important;
+}
+
+.dropdown-item{
+    padding: 8px !important;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.dropdown-menu a:hover {
+    background-color:#B7CC31 !important;
+    color: white !important;
+    border-radius: 7px !important;
+   }
+
+   ul li a:hover, ul li a:focus {
+    color:#B7CC31 !important;
+   }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.active a{
+    color:#B7CC31 !important;
+}
+
+.boldfont{
+    font-weight: bold;
+    color: #666666 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#talkfont{
+    color:  #B7CC31;
+}
+ 
+#talkfont:hover {
+    background-color: #fff;
+}
+
+.borderless {
+    border: 0 none;
+  }
+
+.talkbutton{
+    /* margin-right: 3rem; */
+    color: #B7CC31;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+.talkbutton:focus,
+.talkbutton:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Navbar */
+
+
+/* Title */
+
+#head{
+    padding: 0 8%;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title{
+    margin-top: 15rem;
+}
+
+.head__image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.head__learn{
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.head__learn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.head__learn:focus {
+    outline: none !important;
+  }
+
+.head__learn:focus,
+.head__learn:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+/* Title */
+
+/* Head */
+
+#headtwo{
+    padding: 0 8%;
+    margin-top: 5rem;
+}
+
+.abouttwo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.abouttwo__desc{
+    padding-top: 5rem;
+}
+
+
+
+/* Head */
+
+
+/* We carry ourself with */
+
+#aboutus{
+    padding: 0% 8%;
+    text-align: center;
+    margin-top: 10rem;
+   
+}
+
+.about__head{
+    margin-bottom: 6rem;
+}
+
+.about_head{
+    color: #212121DE;
+    font-size: 22px;
+}
+
+.development-container{
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.development__images{
+    height: 120px;
+    width: 149px;
+    object-fit: contain;
+    padding-bottom: 3rem;
+}
+
+.requirement__desc{
+    /* padding-top: 2rem; */
+    padding: 0rem 1rem 0rem 2rem;
+   
+}
+
+.aboutusrowtwo{
+    margin-top: 3rem;
+}
+
+
+
+/* We carry ourself with */
+
+
+
+/* Our Team */
+#ourteam{
+    padding: 0% 8%;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.team__head{
+    margin-bottom: 5rem;
+    padding: 0 5rem;
+}
+
+.code__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.whyusalign{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.team_name{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 2rem;
+}
+
+.team__title{
+    padding-bottom: 1rem;
+}
+
+.position{
+    font-family: 'Noto Sans', sans-serif;
+    color: #737373;
+    font-size: 12px;
+}
+
+
+/* Our Team */
+
+
+/* Values */
+
+#values{
+    padding: 0% 8%;
+    margin-top: 13rem;
+}
+
+.values__desc{
+    margin-top: 5rem;
+    /* padding-right: 10rem; */
+}
+
+
+.values__image{
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+.value__para{
+    padding-bottom: 5rem;
+}

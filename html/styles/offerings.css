@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navbar */
+
+#navbar {
+    padding: 2% 7%;
+}
+
+.navlogo{
+    object-fit: contain !important;
+    width: 160px !important;
+}
+
+.dropdown-item{
+    padding: 8px !important;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.dropdown-menu a:hover {
+    background-color:#B7CC31 !important;
+    color: white !important;
+    border-radius: 7px !important;
+   }
+
+   ul li a:hover, ul li a:focus {
+    color:#B7CC31 !important;
+   }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.active a{
+    color:#B7CC31 !important;
+}
+
+.boldfont{
+    font-weight: bold;
+    color: #666666 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#talkfont{
+    color:  #B7CC31;
+}
+ 
+#talkfont:hover {
+    background-color: #fff;
+}
+
+.borderless {
+    border: 0 none;
+  }
+
+.talkbutton{
+    /* margin-right: 3rem; */
+    color: #B7CC31;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+.talkbutton:focus,
+.talkbutton:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Navbar */
+
+
+/* Title */
+
+#head{
+    padding: 0 8%;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title{
+    margin-top: 15rem;
+}
+
+.head__image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.head__learn{
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.head__learn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.head__learn:focus {
+    outline: none !important;
+  }
+
+.head__learn:focus,
+.head__learn:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+/* Title */
+
+
+
+/* What we offer  */
+
+#atcodemischief{
+    padding: 0% 8%;
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.codemischief-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.code__card {
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in;
+    /* transition: 0.3s; */
+    border: 3px solid #B7CC31;
+    border-radius: 12px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card__container {
+    padding: 2px 16px;
+  }
+
+.tech__description{
+ margin-bottom: 5rem;
+ padding-top: 3rem;
+}
+
+ .work-card{
+    padding: 3% 2%;
+} 
+
+.star-design{
+    text-align: center;
+    background-color: #B7CC31;
+    color: white;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+.card__container>.star-design{
+    padding: 2rem 0rem;
+    width: 100px;  
+}
+
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-link, .card-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* .work-card:hover .code__card {
+    transform: scale(0.9);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+.work-card .code__card:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+} */
+
+/* What we offer  */
+
+
+
+/* What we do? */
+
+#head_one{
+    padding: 0% 10% 0% 10%;
+}
+
+.idea__title{
+    padding-top: 10rem;
+    /* margin-left: 1rem; */
+}
+
+.idea__image{
+    height:auto;
+    max-width:60%;
+    border:none;
+    display:block;
+}
+
+/* What we do  */
+
+
+
+#youmayask{
+    padding: 6% 8%;
+    /* padding-top: 5rem; */
+}
+
+.title__ask{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 3rem;
+}
+
+.branding{
+    padding: 0% 10%;
+}
+
+.brand{
+    padding-right: 3rem;
+}
+
+.brand_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    /* object-fit: contain; */
+}
+
+.ask__description{
+    color: #B7CC31;
+}
+
+.brand__description{
+    color: #212121DE;
+    font-family: 'EB Garamond', serif;
+}

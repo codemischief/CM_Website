@@ -1,0 +1,360 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+} 
+
+.tech__stack{
+    font-family: 'Poppins', sans-serif !important;
+    color: #000000DE;
+    font-size: 20px;
+    /* font-size: 28px; */
+}
+
+
+
+/* Navbar */
+
+#navbar {
+    padding: 2% 7%;
+}
+
+.navlogo{
+    object-fit: contain !important;
+    width: 160px !important;
+}
+
+.dropdown-item{
+    padding: 8px !important;
+}
+
+.dropdown-toggle::after { 
+    content: none; 
+} 
+
+.dropdown-menu a:hover {
+    background-color:#B7CC31 !important;
+    color: white !important;
+    border-radius: 7px !important;
+   }
+
+   ul li a:hover, ul li a:focus {
+    color:#B7CC31 !important;
+   }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.active a{
+    color:#B7CC31 !important;
+}
+
+.boldfont{
+    font-weight: bold;
+    color: #666666 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+#talkfont{
+    color:  #B7CC31;
+}
+ 
+#talkfont:hover {
+    background-color: #fff;
+}
+
+.borderless {
+    border: 0 none;
+  }
+
+.talkbutton{
+    /* margin-right: 3rem; */
+    color: #B7CC31;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+.talkbutton:focus,
+.talkbutton:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Navbar */
+
+
+/* Title */
+
+#head{
+    padding: 0 8%;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.title{
+    margin-top: 8rem;
+}
+
+.head__image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.head__learn{
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.head__learn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.head__learn:focus {
+    outline: none !important;
+  }
+
+.head__learn:focus,
+.head__learn:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.enterprise__description{
+    padding: 2rem 3rem 2rem 0rem;
+}
+
+#codemischief{
+    text-align: center;
+}
+
+.codemischief_head{
+    padding: 5% 20% 2% 20%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.codemischief_desc{
+ padding: 0% 8%;
+ text-align: justify;
+}
+/* Title */
+
+
+
+/* Title 2 */
+
+#headtwo{
+padding: 10% 8%;
+}
+
+.top__boxtwo{
+max-width: 100%;
+width: 500px;
+padding-right: 3rem; 
+
+}
+
+.titletwo{
+    margin-top: 3rem;
+    /* padding-left: 2rem; */
+}
+
+#enterprise__desc{
+    padding: 5% 20%;
+    text-align: left;
+}
+
+
+
+ /* .enterprise__descriptiontwo{
+    margin-top: 3rem; 
+     padding-left: 2rem; 
+     margin-left: 2rem;
+}  */
+/* Title 2 */
+
+
+/* Title 3 */
+
+#headthree{
+    padding: 0% 8%;
+}
+
+.titlethree{
+    margin-bottom: 3rem;
+    padding-right: 2rem;
+}
+
+.top__boxthree
+{
+    max-width: 100%;
+    width: 500px
+}
+
+.enterprise__descriptionthree{
+    margin-top: 3rem;
+}
+
+
+/* Title 3 */
+
+/* User Experience */
+
+#experience{
+    padding: 0% 8%;
+    margin: 5rem 0rem;
+}
+
+.experience__title{
+    padding: 0rem 10rem 3rem 0rem;
+    font-family: 'Poppins', sans-serif !important;
+    /* margin-bottom: 2rem; */
+}
+
+
+/* User Experience */
+
+/* Think Cycle */
+
+#think{
+    padding: 3% 10%;
+}
+
+
+
+
+
+
+/* Think Cycle */
+
+
+
+
+/* Development Methodology  */
+
+
+
+
+/* Development Methodology  */
+
+
+
+#headfour{
+    padding: 3% 8%;
+    
+}
+
+.titlefour{
+    margin-bottom: 2rem;
+}
+
+#headfourdesc{
+    padding: 6% 20%;
+    text-align: center;
+    /* text-align: justify; */
+}
+
+
+
+#development{
+    padding: 0% 8%;
+    margin-top: 5rem;
+    /* text-align: center; */
+}
+
+.development__desc{
+    text-align: left;
+    padding-left: .7rem;
+}
+
+
+.development-container{
+    padding-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+.development__images{
+    height: 120px;
+    width: 149px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+    /* padding-bottom: 3rem; */
+}
+
+/* #developmenttwo{
+    padding: 0% 18%;
+    margin-top: 5rem;
+    text-align: center;
+} */
+
+/* Hosting */
+
+
+#hosting{
+    padding: 0% 8%;
+    margin-top: 10rem;
+}
+
+/* Hosting */
+
+
+
+#values{
+    padding: 0% 8%;
+    margin-top: 5rem;
+}
+
+
+
+/* .handhold {
+    position: relative;
+    width: 40%;
+  }
+  
+  .handhold:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .value__description{
+      margin-bottom: 3rem;
+  }
+
+ #mission{
+     padding: 0% 8%;
+     margin-top: 5rem;
+ }
+
+ #proposition{
+    padding: 0% 8%;
+    margin-top: 4rem;
+ }
+
+ .value_description{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+ } */
