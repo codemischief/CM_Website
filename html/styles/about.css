@@ -255,22 +255,65 @@ h1{
 /* Values */
 
 #values{
-    padding: 0% 8%;
+    padding: 0% 15%;
     margin-top: 13rem;
 }
 
-.values__desc{
-    margin-top: 5rem;
-    /* padding-right: 10rem; */
+.vision__image{
+    height: 150px; 
+    width: 150px;
+    object-fit: contain;
 }
 
 
-.values__image{
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
     width: 100%;
-    max-width: 300px;
-    
+    margin-bottom: 5rem;
 }
 
-.value__para{
-    padding-bottom: 5rem;
+.content{
+    padding-bottom: 3rem;
 }
+
+.content__titleL{
+    flex: 2;
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+}
+
+.content-title{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@media screen and (max-width: 992px){
+    .parent{
+      flex-direction: column;
+      padding-right: 5rem;
+    }
+   
+  }
+  
+  @media screen and (max-width: 600px){
+    .parent{
+     flex-direction: column;
+     padding-right: 5rem;
+    }
+
+  }
+
+
+  .mission-image{
+    flex: 3;
+    padding-bottom: 3rem;
+  }
+
+  .bold_points{
+      color: #B7CC31DE;
+      font-family: 'Poppins', sans-serif !important;
+      font-size: 16px;
+
+  }
