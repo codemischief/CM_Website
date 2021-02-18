@@ -3,8 +3,16 @@ body {
     padding: 0px;
 }
 
+h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
 
-/* Navbar */
+p{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+} 
+
+/* NavBar */
 
 #navbar {
     padding: 2% 7%;
@@ -34,7 +42,11 @@ body {
    }
 
 
-.dropdown:hover .dropdown-menu{
+/* .dropdown:hover .dropdown-menu{
+    display: block;
+} */
+
+.dropdown:hover{
     display: block;
 }
 
@@ -80,6 +92,32 @@ body {
     outline:0px !important;
 }
 
+.dropdown-menu .dropdown {
+    position: relative;
+}
+
+.dropdown-menu li{
+    position: relative !important;
+}
+
+.nav-item .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.nav-item .submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+
+.dropdown-menu > li:hover > .submenu{
+    display: block;
+}
+
+
 /* Navbar */
 
 
@@ -96,7 +134,7 @@ h1{
 }
 
 .title{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .head__image{
@@ -133,8 +171,8 @@ h1{
 
 /* What we offer  */
 
-#atcodemischief{
-    padding: 0% 8%;
+#offer{
+    padding: 0% 13%;
     margin-top: 5rem;
     text-align: center;
     text-transform: capitalize;
@@ -142,47 +180,36 @@ h1{
 
 .codemischief-title{
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 3rem;
 }
 
-.code__card {
-    margin-top: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: all 0.3s ease-in;
-    /* transition: 0.3s; */
+.design{
+    width: 200px;
+    height: 200px;
     border: 3px solid #B7CC31;
-    border-radius: 12px;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .card__container {
-    padding: 2px 16px;
-  }
-
-.tech__description{
- margin-bottom: 5rem;
- padding-top: 3rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
 }
-
- .work-card{
-    padding: 3% 2%;
-} 
 
 .star-design{
     text-align: center;
     background-color: #B7CC31;
     color: white;
-    border-radius: 15px;
+    border-radius: 8px;
     margin: 2rem auto;
 }
 
-.card__container>.star-design{
-    padding: 2rem 0rem;
-    width: 100px;  
+.design>.star-design{
+    padding: 15px 5px;
+    width: 55px;  
+    height: 55px;
 }
 
+ /* .offer-title{
+    padding-bottom: 2rem;
+} */
+
+/*
 .card-link{
     text-decoration: none;
     color: black;
@@ -191,78 +218,134 @@ h1{
 .card-link, .card-link:hover{
     text-decoration: none;
     color: black;
-}
-
-
-/* .work-card:hover .code__card {
-    transform: scale(0.9);
-    transition-timing-function: ease-in;
-    transition: 0.2s;
-}
-.work-card .code__card:hover {
-    transform: scale(1.1);
-    transition-timing-function: ease-in;
-    transition: 0.2s;
 } */
+
 
 /* What we offer  */
 
-
-
-/* What we do? */
-
-#head_one{
-    padding: 0% 10% 0% 10%;
+#idea{
+    padding: 0% 13%;
+    margin-top: 10rem;
 }
 
-.idea__title{
-    padding-top: 10rem;
-    /* margin-left: 1rem; */
+
+
+/* What we offer  */
+
+/* Idea Description */
+
+#idea_description{
+ padding: 0% 18%;
+ margin-top: 5rem;
+ text-align: center;
 }
 
-.idea__image{
-    height:auto;
-    max-width:60%;
-    border:none;
-    display:block;
+.idea-image{
+    margin-right: 3rem;
 }
 
-/* What we do  */
-
-
-
-#youmayask{
-    padding: 6% 8%;
-    /* padding-top: 5rem; */
+.idea-heading{
+    margin-top: 2rem;
 }
 
-.title__ask{
+#uiux{
+    padding: 3% 8%;
+    margin-top: 3rem;
+}
+
+.uiux__description{
+    padding-top: 2rem;
+}
+
+.idea__head{
+    padding-bottom: 1rem;
+}
+
+#frontenddesign{
+    padding: 0% 13%;
+    margin-top: 6rem;
+}
+
+#establish{
+    padding: 0% 8%;
+    margin-top: 7rem;  
+}
+
+.ui-establish{
+   padding-top: 3rem;
+
+}
+
+/* .scale-establish{
+    padding-top: 5rem;
+} */
+
+.establish__description{
+    padding-top: 2rem;
+}
+
+/* .mvp-image{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+} */
+
+#build-brands{
+    margin-right: 3rem;
+}
+
+/* Idea Description */
+
+/* Web Development */
+
+#webdevlopment{
+    padding: 0% 13%;
+    margin-top: 10rem;
+}
+
+
+#webdevlopment_description{
+    padding: 0% 18%;
+    margin-top: 5rem;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 3rem;
 }
 
-.branding{
-    padding: 0% 10%;
+#webdev{
+    padding: 3% 8%;
+    margin-top: 3rem;
+}
+/* Web Development */
+
+/* Start-Up */
+#startup{
+ padding: 0% 8%;
+ margin-top: 10rem;
 }
 
-.brand{
-    padding-right: 3rem;
+.startup-head{
+    margin-top: 5rem;
 }
 
-.brand_image{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 3rem;
-    /* object-fit: contain; */
+
+
+#startup-description{
+    padding: 0% 18%;
+    margin: 7rem 0rem 10rem 0rem;
+    text-align: center;
 }
 
-.ask__description{
-    color: #B7CC31;
+
+#software-startups{
+    padding: 3% 8%;
+    margin-top: 3rem;
 }
 
-.brand__description{
-    color: #212121DE;
-    font-family: 'EB Garamond', serif;
+
+/* Start-Up */
+
+
+#empowering{
+    padding: 0% 18%;
+    text-align: center;
+    margin: 10rem 0rem;
 }

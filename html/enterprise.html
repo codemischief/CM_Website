@@ -19,8 +19,9 @@
 <body>
 
 
-    <!-- Navbar -->
-    <section id="navbar">
+       <!-- Navbar -->
+      <!-- Navbar -->
+      <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="home.html">
@@ -35,26 +36,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2">
                         <li class="nav-item">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why Codemischief?</a>
+                            <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why
+                                Codemischief?</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="#">Home</a>
-                        </li> -->
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
+                                Services </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item boldfont" href="#">UI UX design</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Web Development</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Software For Startup</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li class="borderless"><a class="dropdown-item boldfont" href="#">Prebuilt
-                                        Integration</a></li>
+                                <li><a class="nav-link dropdown-toggle boldfont" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> Small/Medium
+                                        Business </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> UI/UX Design</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Web Development</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Software For Startups</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item boldfont" href="enterprise.html">Enterprise Solutions</a></li>
                             </ul>
+
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
@@ -63,32 +66,37 @@
                             </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="about.html">Core Values</a></li>
-                                <li><a class="dropdown-item boldfont" href="about.html">The Team</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li><a class="dropdown-item boldfont" href="about.html">Our Clients</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Portfolio</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">The Team</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">Case Studies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Technologies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Contact Us</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
+                            <!-- <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="products.html">Nitya</a></li>
+                            </ul> -->
+                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"> Nitya </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="Nitya_payments.html"> Payments</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Authorization.html"> Authorisation</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Notifyme.html"> Notify Me</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Findme.html"> Find Me</a></li>
+
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link boldfont mx-2" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
                         </li>
-
 
                     </ul>
                     <form class="d-flex">
@@ -100,15 +108,14 @@
         </nav>
     </section>
 
-
     <!-- Title -->
 
     <section id="head">
 
         <div class="row">
-            <div class="col-lg-5 title">
+            <div class="col-lg-4 title">
                 <h1>Our Offerings For Enterprise</h1>
-                <!-- <button type="button" class="btn btn-outline-success head__learn">Learn More</button> -->
+                <button type="button" class="btn btn-outline-success head__learn">Learn More</button>
                 <!-- <div class="enterprise__description">
                     <p>Codemischief - An innovative way to help enterprise customer re-engineer or build from scratch software products. We understand and turn your business requirements into great tech products.We are skilled in MERN Stack.</p>
                 </div> -->
@@ -231,12 +238,21 @@
     <!-- Think Cycle -->
 
     <section id="think">
-        <div class="">
-            <!-- <img src="assets/thinkmake.png" alt="think&make" class="img-fluid"> -->
-        </div>
-
+            <img src="assets/thinkmake.png" alt="think&make" class="img-fluid" />
     </section>
 
+    <section id="think__desc">
+        <p>Our smoothed-out cycle shapes your thoughts into splendid products. With the infiltration of digital media today, every application seems to be like the other. Our UI/UX group endeavours to ensure that each application UI web design is extraordinary at the same time user-friendly. Client association is in each progression of the UI run, and we ensure that your contributions to the design are incorporated accurately. We also work with the team to create a comprehensive set of features that are essential to the success of our clients, such as A user interface that is intuitive and user friendly. A UI that can work with a single hand or two fingers with no problems</p>
+    </section>
+
+    <section id="think">
+        <img src="assets/thinkmakecircle.png" alt="" class="img-fluid" />
+    </section>
+
+    <section id="think">
+        <img src="assets/strategies.png" alt="" class="img-fluid" />
+    </section>
+   
 
     <!-- Development Methodology -->
 
@@ -282,7 +298,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="development-container">
                     <div>
-                        <img class="development__images" src="assets/product.png" alt="planning" />
+                        <img class="development__images" src="assets/Requirement Analysis.png" alt="planning" />
                     </div>
 
                     <div class="development__desc">
@@ -318,7 +334,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="development-container">
                     <div>
-                        <img class="development__images" src="assets/releases.png" alt="planning" />
+                        <img class="development__images" src="assets/sketch.png" alt="planning" />
                     </div>
 
                     <div class="development__desc">
@@ -431,7 +447,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="development-container">
                     <div>
-                        <img class="development__images" src="assets/Mobile.svg" alt="planning" />
+                        <img class="development__images" src="assets/Mobility Solutions.png" alt="planning" />
                     </div>
 
                     <div class="development__desc">
@@ -457,7 +473,7 @@
 
 
             <div class="col-lg-6">
-                <img class="head__image" src="assets/Group2.png" alt="productprocesssing">
+                <img id="host" class="head__image" src="assets/Group2.png" alt="productprocesssing">
             </div>
             <div class="col-lg-6 titlefour">
                 <h1>Hosting</h1>

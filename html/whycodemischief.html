@@ -17,8 +17,8 @@
 
 <body>
 
-    <!-- Navbar -->
-    <section id="navbar">
+      <!-- Navbar -->
+      <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="home.html">
@@ -32,27 +32,29 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2">
-                        <li class="nav-item active">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="#">Why Codemischief?</a>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why
+                                Codemischief?</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="#">Home</a>
-                        </li> -->
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
+                                Services </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item boldfont" href="enterprise.html">UI UX design</a></li>
-                                <li><a class="dropdown-item boldfont" href="enterprise.html">Web Development</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Software For Startup</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li class="borderless"><a class="dropdown-item boldfont" href="#">Prebuilt
-                                        Integration</a></li>
+                                <li><a class="nav-link dropdown-toggle boldfont" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> Small/Medium
+                                        Business </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> UI/UX Design</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Web Development</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Software For Startups</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item boldfont" href="enterprise.html">Enterprise Solutions</a></li>
                             </ul>
+
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
@@ -61,12 +63,8 @@
                             </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="about.html">Core Values</a></li>
-                                <li><a class="dropdown-item boldfont" href="about.html">The Team</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li><a class="dropdown-item boldfont" href="about.html">Our Clients</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Portfolio</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">The Team</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">Case Studies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Technologies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Contact Us</a></li>
                             </ul>
@@ -76,17 +74,26 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
+                            <!-- <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="products.html">Nitya</a></li>
+                            </ul> -->
+                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"> Nitya </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="Nitya_payments.html"> Payments</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Authorization.html"> Authorisation</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Notifyme.html"> Notify Me</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Findme.html"> Find Me</a></li>
+
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link boldfont mx-2" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
                         </li>
-
 
                     </ul>
                     <form class="d-flex">
@@ -123,7 +130,22 @@
     </section>
 
     <section id="ourteam">
-        <div class="team"><img class="team__image" src="assets/ourteam1.png" alt="" /></div>
+        <!-- <div class="team">
+            <img class="team__image" src="assets/ourteam1.png" alt="" />
+        </div>
+        <h2>Our Team</h2> -->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="assets/ourteam1.png" alt="" />
+            </div>
+            <div class="col-lg-6">
+                <div class="team-head">
+                    <h1>Our Team</h1>
+                </div>
+                
+            </div>
+        </div>
+        
     </section>
 
     <section id="teamqualities">
@@ -151,7 +173,6 @@
                     <p class="content__topic">Creative innovation</p>
                     <p>Innovative and creative thinking is the prime quality you might be looking for while searching
                         for a team to build your business’ digital side. Your search has brought you the perfect place!
-                        CodeMischief is here for that exquisite combination of successful ideas you were in quest of.
                     </p>
                 </div>
 
@@ -261,8 +282,6 @@
 
         </div>
 
-
-
         <div class="whyus_childL">
             <img class="fluid-image" src="assets/rocket.png" />
             <div class="content">
@@ -272,12 +291,14 @@
                     possible with our expert team.</p>
             </div>
 
-
-
         </div>
 
-
     </section>
+
+
+
+
+
 
 
     <section id="customer">
@@ -302,7 +323,8 @@
                 <img class="fluid-image" src="assets/customer-service.png" />
                 <div class="content">
                     <p class="content__topic">Support</p>
-                    <p>A dedicated support system and processes to support any production issues 24x7 with guaranteed uptime as per mutually decided SLA’s.</p>
+                    <p>A dedicated support system and processes to support any production issues 24x7 with guaranteed
+                        uptime as per mutually decided SLA’s.</p>
                 </div>
 
 
@@ -316,7 +338,8 @@
                 <img class="fluid-image" src="assets/satisfaction.png" />
                 <div class="content">
                     <p class="content__topic">Happy Customers</p>
-                    <p>In the end that is all that we intend to have. You will be content with what you will get as an output. We become an organic part of your team/ business</p>
+                    <p>In the end that is all that we intend to have. You will be content with what you will get as an
+                        output. We become an organic part of your team/ business</p>
                 </div>
 
             </div>
@@ -344,10 +367,12 @@
         <div class="whyus">
 
             <div class="whyus_childL">
-                <img class="fluid-image" src="assets/customer-service.png" />
+                <img class="fluid-image" src="assets/hand.png" />
                 <div class="content">
                     <p class="content__topic">Spend Less</p>
-                    <p>CodeMischief offers you the best of tech solutions without spending a fortune. We make it brilliantly cost-effective! Our team of professionals strives to create brilliant software services and products for your business within your planned budget.</p>
+                    <p>CodeMischief offers you the best of tech solutions without spending a fortune. We make it
+                        brilliantly cost-effective! Our team of professionals strives to create brilliant software
+                        services and products for your business within your planned budget.</p>
                 </div>
 
 
@@ -358,10 +383,12 @@
 
 
             <div class="whyus_childR">
-                <img class="fluid-image" src="assets/satisfaction.png" />
+                <img class="fluid-image" src="assets/analysis.png" />
                 <div class="content">
                     <p class="content__topic">Get more</p>
-                    <p>Being a cost-effective alternative doesn’t mean we compromise on the quality. We value your effort and expenditure on making your business more effective with enhanced software options. Get only the best for your business!</p>
+                    <p>Being a cost-effective alternative doesn’t mean we compromise on the quality. We value your
+                        effort and expenditure on making your business more effective with enhanced software options.
+                        Get only the best for your business!</p>
                 </div>
 
             </div>

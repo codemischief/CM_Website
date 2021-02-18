@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
-
-
 <body>
 
     <!-- Navbar -->
@@ -33,26 +33,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-2">
                         <li class="nav-item">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why Codemischief?</a>
+                            <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why
+                                Codemischief?</a>
                         </li>
-                        <!-- <li class="nav-item active">
-                            <a class="nav-link mx-2 boldfont" aria-current="page" href="#">Home</a>
-                        </li> -->
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
+                                Services </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item boldfont" href="enterprise.html">UI UX design</a></li>
-                                <li><a class="dropdown-item boldfont" href="enterprise.html">Web Development</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Software For Startup</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li class="borderless"><a class="dropdown-item boldfont" href="#">Prebuilt
-                                        Integration</a></li>
+                                <li><a class="nav-link dropdown-toggle boldfont" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> Small/Medium
+                                        Business </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> UI/UX Design</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Web Development</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Software For Startups</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item boldfont" href="enterprise.html">Enterprise Solutions</a></li>
                             </ul>
+
+
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
@@ -61,12 +63,8 @@
                             </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="about.html">Core Values</a></li>
-                                <li><a class="dropdown-item boldfont" href="about.html">The Team</a></li>
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
-                                <li><a class="dropdown-item boldfont" href="about.html">Our Clients</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Portfolio</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">The Team</a></li>
+                                <li><a class="dropdown-item boldfont" href="#">Case Studies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Technologies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Contact Us</a></li>
                             </ul>
@@ -76,11 +74,21 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
-                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <!-- <li>
-                                    <hr class="dropdown-divider">
-                                </li> -->
+                            <!-- <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="products.html">Nitya</a></li>
+                            </ul> -->
+                            <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
+                                <li><a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html"
+                                        id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false"> Nitya </a>
+                                    <ul class="submenu dropdown-menu borderless">
+                                        <li><a class="dropdown-item boldfont" href="Nitya_payments.html"> Payments</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Authorization.html"> Authorisation</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Notifyme.html"> Notify Me</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Findme.html"> Find Me</a></li>
+
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -103,12 +111,13 @@
     <section id="head">
 
         <div class="row">
-            <div class="col-lg-4 title">
-                <h1>We Help You Build Great Tech Products</h1>
-                <button type="button" class="btn btn-outline-success head__learn">Learn More</button>
+            <div class="col-lg-5 title">
+                <h1>Bringing In The Best Tech For Your Business</h1>
+                <button type="button" class="btn btn-outline-success head__learn">Get Started</button>
+                <button type="button" class="btn btn-outline-success work__learn">How it Works</button>
 
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-7">
                 <img class="head__image" src="assets/animation.gif" alt="buildingtechgif">
             </div>
 
@@ -119,15 +128,16 @@
     <!-- What we do? -->
 
     <section id="ourrole">
-        <h3>Who Are We For ?</h3>
+        <h3>What Describes You The Best</h3>
 
-        <div class="parent">
+        <!-- <div class="parent">
             <div class="work-card">
                 <div class="role__business">
                     <h4>Small-Medium Businesses</h4>
                 </div>
                 <div class="role__description">
-                    <p>Do you want to build an online presence to generate more leads, increase sales and grow your business?</p>
+                    <p>Do you want to build an online presence to generate more leads, increase sales and grow your
+                        business?</p>
                 </div>
 
             </div>
@@ -137,10 +147,26 @@
                     <h4>Enterprises</h4>
                 </div>
                 <div class="role__description">
-                    <p>Are you striving to remain competitive in today’s high demanding market and are looking to add more value to your business?</p>
+                    <p>Are you striving to remain competitive in today’s high demanding market and are looking to add
+                        more value to your business?</p>
                 </div>
 
             </div>
+
+        </div> -->
+
+        <div class="holdingcontainer">
+            <div class="internalcontainer">
+               <div class="business"><h4>Small/Medium Business</h4></div> 
+              <p>Do you want to build an online presence to generate more leads, increase sales and grow your
+                business?</p> 
+            </div> 
+
+           <div class="internalcontainer">
+                <div class="business"><h4>Enterprises</h4></div>
+               <p class="subhead">Are you striving to remain competitive in today’s high demanding market and are looking to add
+                more value to your business?</p> 
+            </div> 
 
         </div>
 
@@ -149,7 +175,7 @@
     <!-- Across Globe -->
 
     <section id="Globe__Section">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-4 globe__heading">
                 <h2>Unlocking World Across the Globe</h2>
                 <div class="globe__description">
@@ -161,6 +187,12 @@
             <div class="col-lg-8">
                 <img class="globemap" src="assets/world.png" alt="worldmap">
             </div>
+        </div> -->
+
+        <div class="globe__heading">
+            <h2><strong>E-Mpowering Businesses</strong></h2>
+            <h2><strong>Across The Globe</strong></h2>
+            <img class="globemap" src="assets/Map.png" alt="worldmap">
         </div>
 
     </section>
@@ -172,7 +204,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="test__one">
-                    <img src="https://www.w3schools.com/w3images/avatar2.png" alt="avatar" class="test__roundedimage">
+                    <img src="assets/manoj.png" alt="avatar" class="test__roundedimage">
                     <div class="test__name">
                         <h4>Manoj Gupta</h4>
                         <p class="designation">CEO, EasyAspataal</p>
@@ -203,9 +235,8 @@
                         <h3>We Would Like You To Be Our Next Happy Customer.</h3>
                     </div>
                     <div class="image__you">
-                        <img src="https://www.w3schools.com/w3images/avatar2.png" alt="avatar"
-                            class="your__roundedimage">
-                        <span class="mx-4">-Prashant Adiyodi</span>
+                        <img src="assets/you.png" alt="avatar" class="your__roundedimage">
+                        <span class="mx-4 you">- you</span>
                     </div>
                 </div>
             </div>
@@ -228,28 +259,30 @@
                 <div class="whyusalign">
                     <img src="assets/ourteam.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Our Team</h4>
-                    <p class="speciality__description">A highly motivated group of tech savvy giving out their best efforts to deliver the client expectations</p>
+                    <p class="speciality__description">Professional to the core, adaptable to your needs! </p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="whyusalign">
                     <img src="assets/ourexpertise.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Our Expertise</h4>
-                    <p class="speciality__description">We are your first partner for your go to marketing strategy. From prototyping to minimal viable product.</p>
+                    <p class="speciality__description">Building great tech products customised for your business</p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="whyusalign">
                     <img src="assets/delight.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Customer delight</h4>
-                    <p class="speciality__description">We Are An Outcome Focused Organization. We Partner With You In Delivering Innovation And Quality.</p>
+                    <p class="speciality__description">Going the extra mile for the best outputs
+                    </p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="whyusalign">
                     <img src="assets/valueformoney.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Value For Money</h4>
-                    <p class="speciality__description">We Help you growing your business without burning holes in your pocket.</p>
+                    <p class="speciality__description">Best in class pricing with uncompromised results
+                    </p>
                 </div>
             </div>
         </div>
@@ -258,6 +291,9 @@
 
     <!-- Accomplishment -->
 
+    <section id="accomplishment">
+        <img class="img-fluid" src="assets/accomplishment.png" alt="" />
+    </section>
 
 
     <!-- Nithya Product Intro -->
@@ -271,131 +307,21 @@
     </div>
 
     <section id="techstack">
-        <img class="img-fluid" src="assets/ourtech.png" alt="technology">
-        <!-- <div class = "row">
-            <div class="col-lg-3 box">
-            <div class="react">
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-             class="reactimg"
-            />
-            <p>React js</p>
-            </div>
-            
-            <div class="react">
-            <img src = "assets/redux.png"
-             class="reactimg"
-            />
-            <p>Redux</p>
-            </div>
-            
-            <div class="react">
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-             class="reactimg"
-            />
-            <p>React js</p>
-            </div>
-              
-            <div class="react">
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-             class="reactimg"
-            />
-            <p>React js</p>
-            </div>
-            
-            </div>
-            <div class="col-lg-3 box">
-                <div class="react">
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                 class="reactimg"
-                />
-                <p>React js</p>
-                </div>
-                
-                <div class="react">
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                 class="reactimg"
-                />
-                <p>React js</p>
-                </div>
-                
-                <div class="react">
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                 class="reactimg"
-                />
-                <p>React js</p>
-                </div>
-                  
-                <div class="react">
-                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                 class="reactimg"
-                />
-                <p>React js</p>
-                </div>
-                
-                
-                 
-                </div>
-                <div class="col-lg-3 box">
-                    <div class="react">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                     class="reactimg"
-                    />
-                    <p>React js</p>
-                    </div>
-                    
-                    <div class="react">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                     class="reactimg"
-                    />
-                    <p>React js</p>
-                    </div>
-                    
-                    <div class="react">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                     class="reactimg"
-                    />
-                    <p>React js</p>
-                    </div>
-                      
-                    <div class="react">
-                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                     class="reactimg"
-                    />
-                    <p>React js</p>
-                    </div>
-                    
-                    </div>
-                    <div class="col-lg-3 box">
-                        <div class="react">
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                         class="reactimg"
-                        />
-                        <p>React js</p>
-                        </div>
-                        
-                        <div class="react">
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                         class="reactimg"
-                        />
-                        <p>React js</p>
-                        </div>
-                        
-                        <div class="react">
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                         class="reactimg"
-                        />
-                        <p>React js</p>
-                        </div>
-                          
-                        <div class="react">
-                        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"
-                         class="reactimg"
-                        />
-                        <p>React js</p>
-                        </div>
-                        
-                    </div>
-            </div> -->
+        <img class="img-fluid" src="assets/Tech.png" alt="technology">
+    </section>
+
+    <!-- Trademarks -->
+
+    <section id="trademark">
+        <p><strong>* All Trademarks Are The Property Of Their Respective Owners</strong></p>
+    </section>
+
+
+    <!-- Footer -->
+
+    <section id="">
+        
+
     </section>
 
 
