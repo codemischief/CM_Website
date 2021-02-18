@@ -3,6 +3,11 @@ body {
     padding: 0px;
 }
 
+a {color:#212529;text-decoration: none;}  /* Unvisited link  */
+a:visited {color:#212529;} /* Visited link    */
+a:hover {color:#212529;}   /* Mouse over link */
+a:active {color:#212529;}  /* Selected link   */
+
 
 /* Navbar */
 
