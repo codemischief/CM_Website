@@ -186,6 +186,12 @@ h1{
     text-transform: capitalize;
 }
 
+@media (max-width: 525px){
+    #offer{
+        padding: 25%;
+    }
+}
+
 .codemischief-title{
     font-family: 'Poppins', sans-serif;
     padding-bottom: 3rem;
