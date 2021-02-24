@@ -194,6 +194,19 @@ h1{
     align-items: center;  */
 }
 
+/* .ourteambg{
+    background-image: url('../assets/Path\ 3224.svg');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top left;
+    height: 140vh;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+} */
+
 .team-head{
     padding-top: 7rem;
 }
@@ -398,3 +411,17 @@ text-align: center;
     margin-top: 5rem;
   }
   
+
+  .back_nav{
+    background-image: url('../assets/backgroundall.png');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top right;
+    height: 140vh;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+

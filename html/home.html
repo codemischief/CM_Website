@@ -5,6 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="styles/home.css" rel="stylesheet">
+    <link href="styles/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
@@ -16,8 +17,8 @@
 
 </head>
 <body>
-    <section class="intro">
-        <div class="bg-img"></div>
+    <!-- <section class="intro"> -->
+        <!-- <div class="bg-img"></div> -->
     <!-- Navbar -->
     <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -112,7 +113,7 @@
             </div>
         </nav>
     </section>
-
+    <div class="back_nav"></div>
 
     <!-- Title -->
 
@@ -134,7 +135,9 @@
 
     </section>
 
-</section>
+<!-- </section> -->
+
+<div class="top-bg"></div>
 
     <!-- What we do? -->
 
@@ -169,16 +172,26 @@
         <div class="holdingcontainer">
            
             <div class="internalcontainer">
-                <a href="offerings.html">  <div class="business"><h4>Small/Medium Business</h4></div> 
+                <!-- <a href="offerings.html">  <div class="business"><h4>Small/Medium Business</h4></div> 
               <p>Do you want to build an online presence to generate more leads, increase sales and grow your
-                business?</p>  </a>
+                business?</p>  </a> -->
+
+                <div><a href="offerings.html">  <div class="business"><h4>Small/Medium Business</h2></div> 
+                    <p>Do you want to build an online presence to generate more leads, increase sales and grow your
+                      business?</p>  </a></div>
         
          </div>
              <div class="internalcontainer">
-                <a href="enterprise.html">   <div class="business"><h4>Enterprises</h4></div>
+                <!-- <a href="enterprise.html">   <div class="business"><h4>Enterprises</h4></div>
                <p class="subhead">Are you striving to remain competitive in today’s high demanding market and are looking to add
-                more value to your business?</p> </a> 
-            </div> </a>
+                more value to your business?</p> </a>  -->
+
+                <div><a href="enterprise.html">   <div class="business"><h4>Enterprises</h2></div>
+                    <p class="subhead">Are you striving to remain competitive in today’s high demanding market and are looking to add
+                     more value to your business?</p> </a> </div>
+                 </div>
+
+            </div> 
         
         </div>
 
@@ -313,7 +326,32 @@
     </section>
 
 
-    <!-- Nithya Product Intro -->
+   <!-- Nithya Product Intro -->
+   <div class="row mobile-row">
+    <div class="col-lg-4 mobile-text" >
+        <div data-aos="zoom-in" data-aos-delay="500">
+            <h3>UI/UX</h3>
+            <p>Design An Engaging Presence That Is Easy To Use, Attractive And Well Designed.</p>
+        </div>
+        <div  data-aos="zoom-in" data-aos-delay="800">
+            <h3>Software For Enterprises</h3>
+            <p>Our Enterprise Development Experience Gives Us The Ability To Overcome Obstacles & Integrate With Existing Systems</p>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <img src="./assets/Group 973.png" />
+    </div>
+    <div class="col-lg-4 mobile-text">
+        <div style="text-align: left;"  data-aos="zoom-in" data-aos-delay="1100">
+            <h3>Software For Startups</h3>
+            <p>Transform Ideas Into Innovative, Reliable, Scalable and Successful Market-Ready Solutions.</p>
+        </div>
+        <div style="text-align: left;"  data-aos="zoom-in" data-aos-delay="1400">
+            <h3>Web Development</h3>
+            <p>Create Beautiful, Fast and Secure Web Applications Tailored Exclusively For Your Buisness Goals</p>
+        </div>
+    </div>
+</div>
 
 
 
@@ -336,9 +374,91 @@
 
     <!-- Footer -->
 
-    <section id="">
-        
+    <section id="footer">
+        <div class="footer-back-bg"></div>
+        <div class="footer-front-bg"></div>
+        <div class="footer-content"> 
+            <button class="btn rounded-circle text-center"  onclick="window.scrollTo(0,0)" style="position:absolute; z-index:111; left:50%; top:12%; background-color:gray; font-size:larger;">
+            <i class="fa fa-arrow-up" style="color:white;"></i></button>
+           
+            <div class="row main-footer-content" style="width: 90%;">
+                <div class="col-md-5 col-lg-5 col-sm-12" style="align-self: flex-end; padding-top: 40px;">
+                    <div class="row">
+                        <img style="width:180px; height: 80px;margin-bottom: 60px;margin-left: 40px;" src="assets/logo.png" class="col-lg-2"/>
+                    </div>
+                    <div class="row"><h3 style="margin-bottom: 0" class="mt-3">Address: </h3></div>
+                    <div class="row"><p style="margin-top: 5px; font-size:smaller;"><span style="font-weight: bold;">Head Office</span><br/> Codemischief Software Solutions (DPC) Private Limited <br/>
+                        PMC 34/391, Adiyodi House, Priyont, Kokkonisseri, Payyannur, Kannur, <br/>
+                        Kerala India - 870307 <br/>
+                        <strong>Branch Office</strong> <br/>
+                        Codermischief Software Solutions (DPC) Private Limited <br/>
+                        Super Mall Society, G-23, Solunke Vihar Road, Wanwadi, Pune, <br/>
+                        Maharashtra lndia- 411040<br></br><br>Website: www.codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
+                        <br>email: hello@codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
+                    </p>
+                </div>
+                </div> 
+                <div class="col-md-7 col-lg-7 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="offer">
+                                <h3>Offerings</h3>
+                                <p class="footer-offer">UI UX Design</p>
+                                <p class="footer-offer">Web Development</p>
+                                <p class="footer-offer">Software For Startup</p>
+                                <p class="footer-offer">Prebuilt Integration</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <h3>About</h3>
+                            <p class="footer-offer">The Team</p>
+                            <p class="footer-offer">Our Clients</p>
+                            <p class="footer-offer">Blog</p>
+                            <p class="footer-offer">Careers</p>
+                        </div>
+                        <div class="col-lg-5 col-md-12" style="position:relative;top:47px;">
+                            <div class="row social-holder"  style="width: 100%;">
+                                <div class="col-sm-4">
+                                    <img style="width: 80%; " src="https://www.pngkit.com/png/full/190-1905943_facebook-button-circle-fb-icon-white.png" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <img style="width: 80%; -webkit-filter: grayscale(1) invert(1);
+                                    filter: grayscale(1) invert(1);" src="https://i.pinimg.com/originals/d9/d9/5e/d9d95ee468e97317a201ef33b02067ac.png" />
+                                </div>
+                                <div class="col-sm-4">
+                                    <img style="width: 80%; " src="https://www.pikpng.com/pngl/b/101-1011785_twitter-logo-circle-png-twitter-logo-white-circle.png" />
+                                </div>
+                            </div>
+                            <div class="form-input">
+                            
+                                <input  
+                                type="text" placeholder="Your Email"/>
+                                <i class="fa fa-envelope" style="font-size:18px;"></i>
+                            </div>
+                                <button 
+                            style="font-size:24px;padding: 7px 40px; border:none; background-color: #B7CC31;color:white; border-radius: 50px;"
+                                >Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-sm-3"><p class="footer-offer">Proudly recognised by:</p></div>
+                        <div class="col-sm-3 m-col">
+                            <img style="width: 100%;" src="./assets/Image 1.png" />
+                        </div>
+                        <div class="col-sm-3 m-col">
+                            <img style="width: 100%;" src="./assets/Image 2.png" />
+                        </div>
+                        <div class="col-sm-3 m-col">
+                            <img style="width: 100%;" src="./assets/Image 3.png" />
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- <div class="row">
+                <p class="text-center mt-2" style="font-size:smaller;">Copyright 2021-All rights Recieved</p>
 
+            </div> -->
+        </div>
     </section>
 
 
@@ -346,6 +466,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+        <script src="javascript/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript">
+            AOS.init();
+        </script>
 </body>
 
 </html>
