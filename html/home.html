@@ -16,13 +16,14 @@
 
 </head>
 <body>
-
+    <section class="intro">
+        <div class="bg-img"></div>
     <!-- Navbar -->
     <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="home.html">
-                    <img class="navlogo" src="assets/logo.png" alt="codemischieflogo">
+                    <img class="navlogo" src="assets/ws.png" alt="codemischieflogo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,13 +43,12 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Services </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="nav-link dropdown-toggle boldfont" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false"> Small/Medium
-                                        Business </a>
+                                <li>
+                                    <a class="dropdown-item dropdown-toggle boldfont" href="offerings.html"> Small/Medium Business </a>
                                     <ul class="submenu dropdown-menu borderless">
-                                        <li><a class="dropdown-item boldfont" href="offerings.html"> UI/UX Design</a></li>
-                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Web Development</a></li>
-                                        <li><a class="dropdown-item boldfont" href="offerings.html"> Software For Startups</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html#idea"> UI/UX Design</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html#webdevlopment"> Web Development</a></li>
+                                        <li><a class="dropdown-item boldfont" href="offerings.html#startup"> Software For Startups</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item boldfont" href="enterprise.html">Enterprise Solutions</a></li>
@@ -62,30 +62,38 @@
                                 About
                             </a>
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item boldfont" href="about.html">Core Values</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">The Team</a></li>
+                                <li><a class="dropdown-item boldfont" href="about.html#aboutus">Core Values</a></li>
+                                <li><a class="dropdown-item boldfont" href="about.html#ourteam">The Team</a></li>
                                 <li><a class="dropdown-item boldfont" href="#">Case Studies</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Technologies</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Contact Us</a></li>
+                                <li><a class="dropdown-item boldfont" href="#tech__stack">Technologies</a></li>
+                                <li><a class="dropdown-item boldfont" href="contact.html">Contact Us</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle mx-2 boldfont" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
                             </a>
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link mx-2 boldfont" aria-current="page" href="whycodemischief.html">Why
+                                    Codemischief?</a>
+                            </li> -->
+
+
                             <!-- <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item boldfont" href="products.html">Nitya</a></li>
                             </ul> -->
                             <ul class="dropdown-menu borderless" aria-labelledby="navbarDropdown">
-                                <li><a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html"
+                                <li> <!-- <a class="nav-link dropdown-toggle mx-2 boldfont" href="products.html"
                                         id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false"> Nitya </a>
+                                        aria-expanded="false"> Nitya </a> -->
+                                        <a class="dropdown-item dropdown-toggle boldfont" href="products.html"> Nitya </a>
                                     <ul class="submenu dropdown-menu borderless">
-                                        <li><a class="dropdown-item boldfont" href="Nitya_payments.html"> Payments</a></li>
-                                        <li><a class="dropdown-item boldfont" href="Nitya_Authorization.html"> Authorisation</a></li>
-                                        <li><a class="dropdown-item boldfont" href="Nitya_Notifyme.html"> Notify Me</a></li>
-                                        <li><a class="dropdown-item boldfont" href="Nitya_Findme.html"> Find Me</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_payments.html#nityaauth"> Payments</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Authorization.html#nityaauth"> Authorisation</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Notifyme.html#nityaauth"> Notify Me</a></li>
+                                        <li><a class="dropdown-item boldfont" href="Nitya_Findme.html#nityaauth"> Find Me</a></li>
 
                                     </ul>
                                 </li>
@@ -113,10 +121,11 @@
         <div class="row">
             <div class="col-lg-5 title">
                 <h1>Bringing In The Best Tech For Your Business</h1>
-                <button type="button" class="btn btn-outline-success head__learn">Get Started</button>
+              <a href="#ourrole">  <button type="button" class="btn btn-outline-success head__learn">Get Started</button> </a>
                 <button type="button" class="btn btn-outline-success work__learn">How it Works</button>
 
             </div>
+
             <div class="col-lg-7">
                 <img class="head__image" src="assets/animation.gif" alt="buildingtechgif">
             </div>
@@ -124,6 +133,8 @@
         </div>
 
     </section>
+
+</section>
 
     <!-- What we do? -->
 
@@ -156,21 +167,24 @@
         </div> -->
 
         <div class="holdingcontainer">
+           
             <div class="internalcontainer">
                 <a href="offerings.html">  <div class="business"><h4>Small/Medium Business</h4></div> 
               <p>Do you want to build an online presence to generate more leads, increase sales and grow your
                 business?</p>  </a>
-            </div>  
-
+        
+         </div>
              <div class="internalcontainer">
                 <a href="enterprise.html">   <div class="business"><h4>Enterprises</h4></div>
                <p class="subhead">Are you striving to remain competitive in today’s high demanding market and are looking to add
                 more value to your business?</p> </a> 
             </div> </a>
-
+        
         </div>
 
     </section>
+
+
 
     <!-- Across Globe -->
 
@@ -211,7 +225,8 @@
                     </div>
                     <div class="test__detail">
                         <p>Starting from ideation to structuring our perspectives, providing a fab UI/UX experience and
-                            supporting with product development and testing </p>
+                            supporting with product development .... </p>
+                            <a href="#"><span class="read">« Read more »</span></a> 
                     </div>
                 </div>
             </div>
@@ -225,6 +240,7 @@
                     <div class="test__detail">
                         <p>We are running expressmimps,a product that codemischief help us build and our healthcare
                             partner is happy with what they got. </p>
+                           <a href="#"><span class="read">« Read more »</span></a> 
                     </div>
                 </div>
             </div>
@@ -238,6 +254,7 @@
                         <img src="assets/you.png" alt="avatar" class="your__roundedimage">
                         <span class="mx-4 you">- you</span>
                     </div>
+                    <a href="#"><p class="read-case">« Read more case studies »</p></a> 
                 </div>
             </div>
 
@@ -302,7 +319,7 @@
 
     <!-- Our Technologies -->
 
-    <div class="tech__head">
+    <div id="tech__stack">
         <h3>Our Technologies</h3>
     </div>
 

@@ -51,7 +51,7 @@ p{
     display: block;
 } */
 
-.dropdown:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -154,6 +154,7 @@ h1{
     border-radius: 15px;
     color: black;
     font-size: 18px;
+    border-color: #B7CC31;
 }
 
 .head__learn:hover{

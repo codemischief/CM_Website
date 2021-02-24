@@ -17,6 +17,12 @@ p{
 .navlogo{
     object-fit: contain !important;
     width: 160px !important;
+
+    /* height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px; */
+    
 }
 
 .dropdown-item{
@@ -42,7 +48,7 @@ p{
     display: block;
 } */
 
-.dropdown:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -222,8 +228,49 @@ img.team__image {
 }
 
 #love__us{
-    padding: 0% 0% 0% 8%; 
+    padding: 0% 15%; 
     margin-top: 5rem;
+}
+
+/* .holding-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+flex: 1;
+box-sizing: border-box;
+text-align: center;
+
+} */
+
+/* @media screen and (max-width:1200px){
+    .holding-container{
+        flex-direction: column;
+    }
+
+    .box{
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .holding-container{
+        flex-direction: column;
+    }
+} */
+
+
+
+.box img{
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto;  */
 }
 
 
@@ -259,7 +306,8 @@ img.team__image {
 
 #expertise{
     padding: 0% 8%;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 
 .expertise__title{
@@ -269,7 +317,7 @@ img.team__image {
 
 
 #expertqualities{
-    padding: 0% 0% 0% 8%;
+    padding: 0% 15%; 
     margin-top: 6rem;
 }
 
@@ -280,10 +328,11 @@ img.team__image {
     display:block;
   }
   
-  .whyus{
+   .whyus{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-between;
     flex-flow: wrap;
     width: 100%;
   }
@@ -296,10 +345,12 @@ img.team__image {
   .whyus_childR{
     flex: 1;
     padding: 30px;
-}
+} 
+
+
 
 .content{
-    padding-right: 15rem;
+    /* text-align: center; */
 }
 
 .content__topic{
@@ -307,6 +358,7 @@ img.team__image {
     font-family: 'Poppins', sans-serif !important;
     color: #000000DE;
     font-size: 20px;
+    /* text-align: center; */
 }
 
 
@@ -329,7 +381,7 @@ img.team__image {
         padding-right: 5rem;
     }
     
-  }
+  } 
 
   #customer{
       padding: 0% 8%;

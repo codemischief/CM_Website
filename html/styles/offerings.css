@@ -51,7 +51,7 @@ a:active {color:#212529;}  /* Selected link   */
     display: block;
 } */
 
-.dropdown:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -154,15 +154,18 @@ h1{
     border-radius: 15px;
     color: black;
     font-size: 18px;
+    border-color: #B7CC31;
 }
 
 .head__learn:hover{
     background-color: #fff;
     color: black;
+    border-color: #B7CC31;
 }
 
 .head__learn:focus {
     outline: none !important;
+    border-color: #B7CC31;
   }
 
 .head__learn:focus,
@@ -209,6 +212,9 @@ h1{
     width: 55px;  
     height: 55px;
 }
+
+
+
 
  /* .offer-title{
     padding-bottom: 2rem;
@@ -328,22 +334,28 @@ h1{
 }
 
 .startup-head{
-    margin-top: 5rem;
+    margin-top: 3rem;
+}
+
+/* .image-resp{
+    height: 50%;
+    object-fit: contain;
+} */
+
+
+#software-startups{
+    padding: 3% 8%;
+    /* margin-top: 3rem; */
 }
 
 
-
 #startup-description{
+    text-align: center;
     padding: 0% 18%;
     margin: 7rem 0rem 10rem 0rem;
     text-align: center;
 }
 
-
-#software-startups{
-    padding: 3% 8%;
-    margin-top: 3rem;
-}
 
 
 /* Start-Up */

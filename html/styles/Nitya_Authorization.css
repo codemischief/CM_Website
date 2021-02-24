@@ -8,7 +8,7 @@ p{
     color: #212121DE;
 } 
 
-h2,h3{
+h2{
     font-family: 'Overpass', sans-serif;
 }
 
@@ -47,10 +47,9 @@ h2,h3{
     display: block;
 } */
 
-.dropdown:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
-
 .dropdown-menu{
     margin-top: 0;
 }
@@ -155,6 +154,7 @@ h1{
     border-radius: 15px;
     color: black;
     font-size: 18px;
+    border-color: #B7CC31;
 }
 
 .head__learn:hover{
@@ -259,26 +259,42 @@ padding: 0% 8%;
 }
 
 .icon__image{
-width: 50px;
-height: 50px;
+width: 40px;
+height: 40px;
 object-fit: contain;
+margin-right: 5rem;
 }
 
 .features__images{
     display: flex; /* Magic begins */
   flex-direction: row;
+  flex-wrap: wrap;
  /* justify-content: center;  Center in main axis */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center; /* Center in cross axis */
  
 }
 
-.nitya__subhead{
-    padding: 2rem 0;
+@media screen and (max-width: 768px){
+    .features__images{
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
 }
 
-.nitya__subheadingdescription{
-    padding-bottom: 2rem;
+.nitya__subhead{
+    padding: 1rem 0;
+}
+
+.nitya__subheadingdescription {
+padding-bottom: 3rem;
+
+}
+
+.nitya__subheadingdescription p{
+    padding: 0;
+    margin: 0;
 }
 
 /* Nithya Authorization Description */
@@ -303,6 +319,10 @@ object-fit: contain;
 /* .nitya__image{
     padding-top: 10rem;
 } */
+
+.features-head{
+    padding-right: 20%;
+}
 
 .nityaproduct{
     width: 100%; 

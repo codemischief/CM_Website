@@ -46,7 +46,7 @@ h2,h3{
     display: block;
 } */
 
-.dropdown:hover{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -154,6 +154,7 @@ h1{
     border-radius: 15px;
     color: black;
     font-size: 18px;
+    border-color: #B7CC31;
 }
 
 .head__learn:hover{
@@ -244,8 +245,19 @@ h1{
 
 
 .Authorization__description{
-    padding: 3rem 0rem;
+    margin: 18rem 0rem;
     text-align: left;
+}
+
+@media screen and (max-width: 991px){
+    .Authorization__description{
+        margin:0rem 0rem;
+        
+    }
+
+    #nitya__featues{
+        margin-top: 3rem;
+    }
 }
 
 /* Nithya Authorization Description */
@@ -253,7 +265,8 @@ h1{
 
 
 #nitya__featues{
-padding: 0% 8%;
+padding: 7% 8%;
+background-color: #F8FBFF;
 /* text-align: center; */
 }
 
@@ -273,11 +286,12 @@ object-fit: contain;
 }
 
 .nitya__subhead{
-    padding: 2rem 0;
+    padding: 1rem 0 0 0;
 }
 
-.nitya__subheadingdescription{
-    padding-bottom: 2rem;
+.nitya__subheadingdescription p{
+    padding: 0rem;
+    margin: 0rem;
 }
 
 /* Nithya Authorization Description */
