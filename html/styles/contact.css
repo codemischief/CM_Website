@@ -60,6 +60,7 @@ p{
 
 .active a{
   color:#B7CC31 !important;
+  border-bottom: 1px solid #B7CC31;
 }
 
 .boldfont{
@@ -124,16 +125,10 @@ p{
 
 /* Navbar */
 
-.title{
-  font-size: 20px;
+
+.contact-container{
+  border-radius: 15px;
 }
-
-
-#contact{
-  padding: 0% 13%;
-}
-
-
 
 .address{
   display: flex;
@@ -181,6 +176,13 @@ p{
     box-shadow: 8px 16px 32px #0000001A;
 }
 
+.round-social .fa{
+  background:#B7CC31;
+  padding: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+  color: white;
+}
 .contact2 .detail-box .round-social {
   margin-top: 100px;
 }
@@ -197,33 +199,7 @@ p{
 
 .contact2 .contact-container {
   position: relative;
-  top: 50px;
-}
-
-.back-ground{
-  background-color: #B7CC31 !important;
-  color: #fff !important;
-}
-
-::-webkit-input-placeholder {
-  font-weight: 800;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-  font-weight: 800;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-  font-weight: 800;
-}
-
-:-ms-input-placeholder {  
-  font-weight: 800;
-}
-
-.back-image{
-  background-image: url('../assets/contactone.png') !important;
-  background-repeat: no-repeat !important;
+  top: 200px;
 }
 
 .contact2 .btn-danger-gradiant {
@@ -242,4 +218,247 @@ p{
   background: -webkit-linear-gradient(left, #B7CC31 0%, #B7CC31 100%);
   background: -o-linear-gradient(left, #B7CC31 0%, #B7CC31 100%);
   background: linear-gradient(to right, #B7CC31 0%, #B7CC31 100%);
+}
+#footer{
+    position: relative;
+    height: 90vh;
+    margin-top: 80px;
+}
+.footer-back-bg{
+    background-image: url('../assets/footerlight.svg');
+    height:60vh;
+    width: 100%;
+    background-size: cover;
+    bottom: 0px;
+    position: absolute;
+}
+.footer-front-bg{
+    background-image: url('../assets/footerdark.svg');
+    height:90vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    bottom: -150px;
+    z-index: 111;
+}
+.footer-content{
+    position: absolute;
+    z-index: 1111;  
+    height: 60vh;
+    width: 100%;
+    color: white;
+    bottom: 0;  
+}
+.main-footer-content{ 
+    position: relative; 
+    top: 00px;
+    align-items: flex-end;
+}
+.main-footer-content p{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+.footer-content p{
+    color: white !important;
+    font-family: var(--bs-font-sans-serif)
+
+}
+.footer-content .row{
+    width: 80%;
+    margin: auto;
+}
+@media (max-width: 1280px){
+     #footer{
+         height: fit-content;
+     }
+    .footer-back-bg{ 
+        display: none;
+    }
+    .footer-front-bg{ 
+        display: none;
+    }
+    .footer-content{ 
+        height: fit-content; 
+        position: relative;
+        padding: 40px 0;
+        background-color: #191930        ;
+    }
+    .main-footer-content{
+        width: 100%;
+    }
+    .social-holder{ 
+        display: flex !important;
+        flex-direction: row;
+    }
+    .social-holder .col-sm-4, .m-col{
+        width: 30% !important;
+    }
+}
+.footer-content .row{
+    width: 80%;
+    margin: auto;
+} 
+
+.card-1{
+    background: url('../assets/Card.png');
+    background-repeat: no-repeat;
+    height:400px;
+}
+.content-form{
+    width:100% !important;
+    margin: 20px auto; 
+    position: absolute; 
+}
+@media (max-width: 786px){
+    .card2{
+        width: 500px !important;
+        height: 750px !important;
+    }
+}
+@media (max-width: 525px){
+    .card2{
+        width: 350px !important;
+        height: 750px !important;
+    }
+}
+@media (max-width: 350px){
+    .card2{
+        width: 280px !important;
+        height: 750px !important;
+    }
+}
+.card2{
+    border: 0px solid white !important;
+    height:500px;
+    width:750px;
+    box-shadow: 0px 7px 15px gray;
+    margin: auto;
+    background-size: cover !important;
+    background: url('../assets/Card 2.png') no-repeat ; 
+    background-size:48vw ;
+    border-radius: 50px;
+    position:relative
+    
+}
+.card2 input,.card2 textarea{ 
+    border-radius: 10px !important;
+    box-shadow: var(--shadow);
+}
+
+
+.contact-head{
+    font-size:1.2vw !important;
+    font-weight:600;
+
+}
+.pal{
+    font-family: palatino;
+}
+.input-name{ 
+    background:#eeeded;
+    color: black;
+    font-weight: 900; 
+}
+.input-textarea{
+    background:#eeeded;
+    color: black;
+    font-weight: 900;
+    height: 80px;
+}
+.input-email{
+    background:#eeeded;
+    color: black;
+    font-weight: 900; 
+}
+.send
+    {
+        background: #B7CC31;
+        color: white;
+        padding-left: 5rem;
+        width: 100%;
+        padding-right: 5rem;
+    }
+    .address-size{
+        font-size:larger;
+    }
+@media (max-width:1400){
+    .address-size{
+        font-size:smaller;
+    }
+    .card-1{
+        background: url('../assets/Card.png');
+        background-repeat: no-repeat;
+        height:400px;
+    }
+    .content-form{
+        width:50%;
+        margin-top:20px;
+        left: 10rem;
+        position: absolute;
+        top: -1rem;
+    }
+    .card2{
+        border: 0px solid white !important;
+        height:500px;
+        width:90%;
+        background: url('../assets/Card 2.png') no-repeat center center; 
+        background-size:48vw ;
+        position:relative
+        
+    }
+    input{
+        background:gray;
+        border-radius: 30px;
+        box-shadow: var(--shadow);
+    }
+    
+    
+    .contact-head{
+        font-size:1.2vw !important;
+        font-weight:600;
+    
+    }
+    .pal{
+        font-family: palatino;
+    }
+    .input-name{ 
+        background: #eeeded;
+        color: black;
+        font-weight: 900;
+        width: 113px;
+    }
+    .input-textarea{
+        background: #eeeded;
+        color: black;
+        font-weight: 900;
+    }
+    .input-email{
+        background: #eeeded;
+        color: black;
+        font-weight: 900;
+        width: 130px;
+    }
+    .send
+        {
+            background: chartreuse;
+            color: white;
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+}
+@media (max-width:525px){
+    .card2{
+        border: 0px solid white !important;
+        height:500px;
+        width:90%;
+        position:relative
+        
+    }
+    .content-form{
+        width:50%;
+        margin-top:20px;
+        left: 1rem;
+        position: absolute;
+        top: -1rem;
+    }
 }

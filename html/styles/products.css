@@ -54,9 +54,11 @@ p{
     margin-top: 0;
 }
 
-.active a{
+a.active{
     color:#B7CC31 !important;
+    border-bottom: 1px solid #B7CC31;
 }
+
 
 .boldfont{
     font-weight: bold;

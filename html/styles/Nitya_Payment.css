@@ -209,7 +209,7 @@ h1{
 }  
 
  .knowMore{
-    background-color: #B7CC31;; 
+    background-color: #B7CC31; 
     border: none;
     color: white;
     text-align: center;
@@ -247,6 +247,32 @@ h1{
 .Authorization{
     margin-top: 5rem;
 }
+
+@media (max-width: 1000px){
+    
+    .Authorization img{
+        display: none;
+        /* width: 0; */
+    }
+
+    .Authorization{
+        margin-top: 0rem;
+    }
+
+    .Authorization__description{
+        padding: 0;
+    }
+
+    .Authorization__description h5:before{ 
+        content: '⚪';
+        position: relative;
+        bottom: .1em;
+        color: #B7CC31 !important;
+        margin-right: .5rem;
+        /* font-size:10pt; */
+     }
+}
+
 
 
 .Authorization__description{
