@@ -3,6 +3,14 @@ body {
     padding: 0px;
 }
 
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url('../assets/Triangles-1s-200px.gif') no-repeat center;
+    z-index: 9999;
+}
+
 a {color:#212529;text-decoration: none;}  /* Unvisited link  */
 a:visited {color:#212529;} /* Visited link    */
 a:hover {color:#212529;}   /* Mouse over link */
@@ -151,6 +159,10 @@ h1{
     line-height: 1.5;
 }
 
+@media all and (max-width:480px) {
+    .title h1{font-size: 2.5rem;}
+ } 
+
 /* @media screen and (max-width: 375px){
     h1{
         font-size: 2rem;
@@ -212,6 +224,13 @@ h1{
     box-shadow:none !important;
     outline:0px !important;
 }
+
+@media all and (max-width:480px) {
+    .custom-class { width: 100%; display:block; }
+    /* .custom-classtwo{ width: 100%; display: block;} */
+    .work__learn{margin: 15px 0px;}
+ } 
+
 /* Title */
 
 /* What we do */
@@ -498,6 +517,14 @@ flex-wrap: wrap;
         height: unset !important;
     }
 }
+
+@media (max-width: 525px){
+    .mobile-text{
+        padding-bottom: 5rem;
+    }
+}
+
+
 .mobile-text{
     display: flex;
     height: 80vh; 
@@ -641,6 +668,12 @@ h4{
      font-size: 42px !important;
  }
 
+ @media all and (max-width:480px) {
+    .tech__head h3{ font-size: 30px !important;}
+ } 
+
+
+
  #codemischief{
      padding: 3% 8%;
  }
@@ -767,6 +800,13 @@ h4{
     font-family: 'Overpass', sans-serif;
     font-size: 42px !important;
 }
+
+@media all and (max-width:480px) {
+    #tech__stack h3{ font-size: 30px !important;}
+ } 
+
+
+
 
 /* .intro{
     max-width: 960px;

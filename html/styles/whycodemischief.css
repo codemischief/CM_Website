@@ -136,6 +136,11 @@ h1{
     line-height: 1.5;
 }
 
+@media all and (max-width:480px) {
+    .title h1{font-size: 2.5rem;}
+ } 
+
+
 .title{
     margin-top: 10rem;
 }
@@ -232,7 +237,7 @@ img.team__image {
 
 #teamqualities{
     text-align: center;
-    padding: 0% 13%;
+    padding: 0% 8%;
     margin-top: 3rem;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -241,7 +246,7 @@ img.team__image {
 }
 
 #love__us{
-    padding: 0% 15%; 
+    padding: 0% 8%; 
     margin-top: 5rem;
 }
 
@@ -341,29 +346,33 @@ text-align: center;
     display:block;
   }
   
-   .whyus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .whyus{
+    /* display: flex;
     flex-direction: row;
-    flex-flow: wrap;
+    justify-content: space-between;
+    flex-flow: wrap; */
     width: 100%;
   }
 
+  /* .whyus_childL p, .whyus_childR p{
+      font-size: 1.25rem;
+  } */
   .whyus_childL{
-      flex: 1;
+      /* flex: 1; */
       padding: 30px;
+      width: 80%;
+      margin: auto;
   }
 
   .whyus_childR{
-    flex: 1;
+    /* flex: 1; */
     padding: 30px;
-} 
-
-
+    width: 80%;
+    margin: auto;
+}
 
 .content{
-    /* text-align: center; */
+    padding-right: 5rem; 
 }
 
 .content__topic{
@@ -371,12 +380,11 @@ text-align: center;
     font-family: 'Poppins', sans-serif !important;
     color: #000000DE;
     font-size: 20px;
-    /* text-align: center; */
 }
 
 
   
-  @media screen and (max-width: 1200px){
+  /* @media screen and (max-width: 1200px){
     .whyus{
       flex-direction: column;
     }
@@ -394,7 +402,7 @@ text-align: center;
         padding-right: 5rem;
     }
     
-  } 
+  } */
 
   #customer{
       padding: 0% 8%;
@@ -404,7 +412,6 @@ text-align: center;
   .customer__title{
       margin-top: 8rem;
   }
-
 
   #value{
     padding: 0% 8%;

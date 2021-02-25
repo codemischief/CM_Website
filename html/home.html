@@ -16,9 +16,15 @@
     <title>Document</title>
 
 </head>
-<body>
-    <!-- <section class="intro"> -->
-        <!-- <div class="bg-img"></div> -->
+<body onload="myFunction()">
+    
+    <!-- loader -->
+
+    <div id="loading"></div>
+
+    <!-- loader -->
+
+
     <!-- Navbar -->
     <section id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -122,8 +128,8 @@
         <div class="row">
             <div class="col-lg-5 title">
                 <h1>Bringing In The Best Tech For Your Business</h1>
-              <a href="#ourrole">  <button type="button" class="btn btn-outline-success head__learn">Get Started</button> </a>
-                <button type="button" class="btn btn-outline-success work__learn">How it Works</button>
+              <a href="#ourrole">  <button type="button" class="btn btn-outline-success head__learn custom-class">Get Started</button> </a>
+                <button type="button" class="btn btn-outline-success work__learn custom-class">How it Works</button>
 
             </div>
 
@@ -367,14 +373,14 @@
 
     <!-- Trademarks -->
 
-    <section id="trademark">
+    <!-- <section id="trademark">
         <p><strong>* All Trademarks Are The Property Of Their Respective Owners</strong></p>
-    </section>
+    </section> -->
 
 
     <!-- Footer -->
 
-    <section id="footer">
+    <!-- <section id="footer">
         <div class="footer-back-bg"></div>
         <div class="footer-front-bg"></div>
         <div class="footer-content"> 
@@ -443,25 +449,32 @@
                     <div class="row ">
                         <div class="col-sm-3"><p class="footer-offer">Proudly recognised by:</p></div>
                         <div class="col-sm-3 m-col">
-                            <img style="width: 100%;" src="./assets/Image 1.png" />
+                            <img style="width: 100%;" src="./assets/image 1.png" />
                         </div>
                         <div class="col-sm-3 m-col">
-                            <img style="width: 100%;" src="./assets/Image 2.png" />
+                            <img style="width: 100%;" src="./assets/image 2.png" />
                         </div>
                         <div class="col-sm-3 m-col">
-                            <img style="width: 100%;" src="./assets/Image 3.png" />
+                            <img style="width: 100%;" src="./assets/image 3.png" />
                         </div>
                     </div>
                 </div>
             </div> 
-            <!-- <div class="row">
+            <div class="row">
                 <p class="text-center mt-2" style="font-size:smaller;">Copyright 2021-All rights Recieved</p>
 
-            </div> -->
+            </div>
         </div>
-    </section>
+    </section> -->
 
+<script type="text/javascript">
+var preloader = document.getElementById('loading');
 
+function myFunction(){
+    preloader.style.display = "none";
+}
+
+</script>
     <script src="javascript/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
