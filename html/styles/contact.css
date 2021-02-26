@@ -567,3 +567,7 @@ p{
 .form-input input:focus,.form-input input:active,.form-input input:visited{
   border: none !important;
 }
+
+.read{
+  color: #B7CC31;
+}

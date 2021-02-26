@@ -16,6 +16,11 @@ h2,h3{
     font-family: 'Overpass', sans-serif;
 }
 
+a {color:#212529;text-decoration: none;}  /* Unvisited link  */
+a:visited {color:#212529;} /* Visited link    */
+a:hover {color:#212529;}   /* Mouse over link */
+a:active {color:#212529;}  /* Selected link   */
+
 /* Navbar */
 
 #navbar {
@@ -350,6 +355,20 @@ h1{
 
   }
 
+/* Background-image */
+  .back_nav{
+    background-image: url('../assets/backgroundall.png');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top right;
+    height: 140vh;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+
 
   /* Footer */
 
@@ -453,4 +472,8 @@ h1{
 }
 .form-input input:focus,.form-input input:active,.form-input input:visited{
     border: none !important;
+}
+
+.read{
+    color: #B7CC31;
 }

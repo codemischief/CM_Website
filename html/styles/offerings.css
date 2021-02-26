@@ -398,6 +398,22 @@ h1{
     #empowering{margin: 3rem 0rem 0rem 0rem;}
 } 
 
+/* Background Image */
+
+.back_nav{
+    background-image: url('../assets/backgroundall.png');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top right;
+    height: 140vh;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+
+
 
 /* Footer */
 
@@ -501,4 +517,8 @@ h1{
 }
 .form-input input:focus,.form-input input:active,.form-input input:visited{
     border: none !important;
+}
+
+.read{
+    color: #B7CC31;
 }

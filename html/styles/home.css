@@ -845,6 +845,19 @@ h4{
     z-index: -1;
 }
 
+.mid-bg{
+    background-image: url('../assets/midbg.svg');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top left;
+    height: 150vh;
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
+
 
 /* Footer */
 
@@ -948,4 +961,8 @@ h4{
 }
 .form-input input:focus,.form-input input:active,.form-input input:visited{
     border: none !important;
+}
+
+.read{
+    color: #B7CC31;
 }
