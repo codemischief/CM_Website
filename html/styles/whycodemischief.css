@@ -378,6 +378,7 @@ text-align: center;
   @media screen and (max-width:480px){
     .whyus_childL{
         padding: 0% 5%;
+        margin-top: 1rem;
 } 
   }
 
@@ -391,6 +392,7 @@ text-align: center;
 @media screen and (max-width:480px){
     .whyus_childR{
         padding: 0% 5%;
+        margin-top: 1rem;
     }
 } 
 
