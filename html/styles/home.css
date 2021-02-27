@@ -7,7 +7,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #fff url('../assets/Triangles-1s-200px.gif') no-repeat center;
+    background: #fff url('https://storage.googleapis.com/cm-website-assets/Triangles-1s-200px.gif') no-repeat center;
     z-index: 9999;
 }
 
@@ -26,6 +26,8 @@ p{
     font-family: 'EB Garamond', serif;
     color: #212121DE;
 } */
+
+
 
 
 .footer-offer{
@@ -54,6 +56,7 @@ p{
         width: 160px !important;
     }
 } */
+
 
 .dropdown-item{
     padding: 8px !important;
@@ -281,7 +284,7 @@ h1{
         transition: all 0.3s ease-in;
         /* box-shadow: 0px 7px 30px #AAAAAA29; */
         border-radius: 15px !important;
-        background-image: url('../assets/gradient-bg.JPG');
+        background-image: url('https://storage.googleapis.com/cm-website-assets/gradient-bg.JPG');
         background-size: contain;
         background-position:center;
         background-repeat: no-repeat;
@@ -801,7 +804,7 @@ h4{
 
 
 .intro{
-    background-image:url("../assets/bghome.png");
+    background-image:url("https://storage.googleapis.com/cm-website-assets/bghome.png");
     background-repeat:no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -833,7 +836,7 @@ h4{
 } */
 
 .back_nav{
-    background-image: url('../assets/backgroundall.png');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/backgroundall.png');
     width: 120%;
     background-size: 60% ;
     background-repeat: no-repeat;
@@ -846,7 +849,7 @@ h4{
 }
 
 .mid-bg{
-    background-image: url('../assets/midbg.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/midbg.svg');
     width: 120%;
     background-size: 60% ;
     background-repeat: no-repeat;
@@ -868,7 +871,7 @@ h4{
     margin-top: 80px;
 }
 .footer-back-bg{
-    background-image: url('../assets/footerlight.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerlight.svg');
     height:60vh;
     width: 100%;
     background-size: cover;
@@ -876,7 +879,7 @@ h4{
     position: absolute;
 }
 .footer-front-bg{
-    background-image: url('../assets/footerdark.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerdark.svg');
     height:90vh;
     width: 100%;
     background-size: cover;

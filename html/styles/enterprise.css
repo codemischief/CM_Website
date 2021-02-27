@@ -374,7 +374,7 @@ padding-right: 3rem;
     margin-top: 80px;
 }
 .footer-back-bg{
-    background-image: url('../assets/footerlight.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerlight.svg');
     height:60vh;
     width: 100%;
     background-size: cover;
@@ -382,7 +382,7 @@ padding-right: 3rem;
     position: absolute;
 }
 .footer-front-bg{
-    background-image: url('../assets/footerdark.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerdark.svg');
     height:90vh;
     width: 100%;
     background-size: cover;

@@ -401,7 +401,7 @@ h1{
 /* Background Image */
 
 .back_nav{
-    background-image: url('../assets/backgroundall.png');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/backgroundall.png');
     width: 120%;
     background-size: 60% ;
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@ h1{
     margin-top: 80px;
 }
 .footer-back-bg{
-    background-image: url('../assets/footerlight.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerlight.svg');
     height:60vh;
     width: 100%;
     background-size: cover;
@@ -432,7 +432,7 @@ h1{
     position: absolute;
 }
 .footer-front-bg{
-    background-image: url('../assets/footerdark.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerdark.svg');
     height:90vh;
     width: 100%;
     background-size: cover;
@@ -481,7 +481,7 @@ h1{
         height: fit-content; 
         position: relative;
         padding: 40px 0;
-        background-color: #191930        ;
+        background-color: #191930;
     }
     .main-footer-content{
         width: 100%;
