@@ -406,6 +406,20 @@ text-align: center;
     }
 }
 
+@media screen and (max-width:768px){
+    .content{
+        padding-right: 0rem; 
+    }
+}
+
+@media screen and (max-width:1024px){
+    .content{
+        padding-right: 0rem; 
+    }
+}
+
+
+
 .content__topic{
     margin-top: 2rem;
     font-family: 'Poppins', sans-serif !important;

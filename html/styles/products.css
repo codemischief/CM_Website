@@ -208,10 +208,17 @@ h1{
 }
 
 .nitya__description{
-    width: 430px;
-    word-wrap: break-word;
-    color: #707070;
+    padding-right: 5rem;
 }  
+
+@media (max-width: 540px){
+    .nitya__description{
+        padding-right: 0rem;
+    }  
+    
+}
+
+
 
  .knowMore{
     background-color: #B7CC31;

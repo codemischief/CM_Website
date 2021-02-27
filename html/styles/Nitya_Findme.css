@@ -365,11 +365,16 @@ h1{
     object-fit: contain;
 }
 
-/* .nitya__description{
-    width: 430px;
-    word-wrap: break-word;
-    color: #707070;
-}   */
+.nitya__description{
+    padding-right: 5rem;
+}  
+
+@media (max-width: 540px){
+    .nitya__description{
+        padding-right: 0rem;
+    }  
+    
+}
 
 
 /* Our Products */

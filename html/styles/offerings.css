@@ -195,9 +195,16 @@ h1{
     text-transform: capitalize;
 }
 
-@media (max-width: 525px){
+/* @media (max-width: 525px){
     #offer{
         padding: 25%;
+    }
+} */
+
+@media (max-width: 525px){
+    #offer{
+        padding-left: 23%;
+        text-align: center;
     }
 }
 
@@ -335,6 +342,10 @@ h1{
 #build-brands{
     margin-right: 3rem;
 }
+
+@media all and (max-width:280px) {
+    #build-brands{margin-right: 0rem;}
+} 
 
 /* Idea Description */
 
