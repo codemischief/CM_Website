@@ -270,6 +270,10 @@ h1{
  text-align: center;
 }
 
+@media all and (max-width:480px) {
+    #idea_description{padding: 0% 5%;}
+ } 
+
 .idea-image{
     margin-right: 3rem;
 }
@@ -386,6 +390,10 @@ h1{
     margin: 7rem 0rem 10rem 0rem;
     text-align: center;
 }
+
+@media all and (max-width:480px) {
+    #startup-description{padding: 0% 5%;}
+} 
 
 
 
