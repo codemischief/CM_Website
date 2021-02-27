@@ -269,7 +269,7 @@ h1{
     position: absolute;
 }
 .footer-front-bg{
-    background-image: url('https://storage.googleapis.com/cm-website-assets/assets/footerdark.svg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footerdark.svg');
     height:90vh;
     width: 100%;
     background-size: cover;
@@ -359,3 +359,11 @@ h1{
 .read{
     color: #B7CC31;
 }
+
+.social-style{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    color: #191930;
+  }
+  

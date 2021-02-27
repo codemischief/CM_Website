@@ -15,6 +15,11 @@ p{
     font-size: 18px !important;
 }
 
+a {color:#212529;text-decoration: none;}  /* Unvisited link  */
+a:visited {color:#212529;} /* Visited link    */
+a:hover {color:#212529;}   /* Mouse over link */
+a:active {color:#212529;}  /* Selected link   */
+
 /* Navbar */
 
 
@@ -570,4 +575,11 @@ p{
 
 .read{
   color: #B7CC31;
+}
+
+.social-style{
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  color: #191930;
 }
