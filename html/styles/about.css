@@ -201,6 +201,11 @@ h1{
     padding-top: 5rem;
 }
 
+.abouttwo__desc p{
+    margin: 0px;
+    padding: 0px;
+}
+
 
 
 /* Head */
