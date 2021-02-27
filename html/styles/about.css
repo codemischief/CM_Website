@@ -137,6 +137,10 @@ a.active{
     padding: 0 8%;
 }
 
+@media all and (max-width:480px) {
+    .title h1{font-size: 2.5rem;}
+ }
+
 h1{
     font-family: 'Overpass', sans-serif;
     font-size: 3rem;
@@ -176,6 +180,8 @@ h1{
     box-shadow:none !important;
     outline:0px !important;
 }
+
+
 /* Title */
 
 /* Head */
