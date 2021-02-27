@@ -201,11 +201,11 @@ h1{
     object-fit: contain;
 }
 
-.nitya__description{
+/* .nitya__description{
     width: 430px;
     word-wrap: break-word;
     color: #707070;
-}  
+}   */
 
  .knowMore{
     background-color: #B7CC31;; 
@@ -361,11 +361,11 @@ padding-bottom: 3rem;
     object-fit: contain;
 }
 
-.nitya__description{
+/* .nitya__description{
     width: 430px;
     word-wrap: break-word;
     color: #707070;
-}  
+}   */
 
 
 /* Our Products */
@@ -494,9 +494,8 @@ padding-bottom: 3rem;
 }
 
 .social-style{
-    background-color: white;
-    padding: 15px;
-    border-radius: 50%;
-    color: #191930;
-  }
-  
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  color: #191930;
+}
