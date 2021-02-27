@@ -472,6 +472,9 @@ a:active {color:#212529;}  /* Selected link   */
 /* Footer */
 
 
+/* Footer */
+
+
 #footer{
   position: relative;
   height: 90vh;
@@ -535,7 +538,7 @@ a:active {color:#212529;}  /* Selected link   */
       height: fit-content; 
       position: relative;
       padding: 40px 0;
-      background-color: #191930;
+      background-color: #191930        ;
   }
   .main-footer-content{
       width: 100%;
