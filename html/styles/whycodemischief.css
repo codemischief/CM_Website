@@ -377,7 +377,7 @@ text-align: center;
 
   @media screen and (max-width:480px){
     .whyus_childL{
-        padding: 0% 5%;
+        padding: 0%;
         margin-top: 1rem;
 } 
   }
@@ -391,8 +391,18 @@ text-align: center;
 
 @media screen and (max-width:480px){
     .whyus_childR{
-        padding: 0% 5%;
+        padding: 0%;
         margin-top: 1rem;
+    }
+} 
+
+@media screen and (max-width:480px){
+    .qualitiy-image img{
+       margin: 0 auto;
+    }
+
+    .content__topic{
+        text-align: center;
     }
 } 
 
