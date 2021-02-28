@@ -138,6 +138,7 @@ a:active {color:#212529;}  /* Selected link   */
 
 @media all and (max-width:480px) {
     .title h1{font-size: 2.5rem;}
+    div.col-lg-4.title {margin-top: 2rem;}
  }
 
 h1{
