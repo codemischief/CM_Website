@@ -7,7 +7,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #fff url('https://storage.googleapis.com/cm-website-assets/Triangles-1s-200px.gif') no-repeat center;
+    background: #fff url('../assets/4zsssg.gif') no-repeat center;
     z-index: 9999;
 }
 
@@ -863,6 +863,38 @@ h4{
     z-index: -1;
 }
 
+
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+
+/* Chat-bot */
+
+/* Modal */
+
+  /* .modal {
+  position: absolute;
+  float: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  } */
+
+  .modal-backdrop { background-color: white !important; }
+  .modal-content { 
+      background: transparent !important;
+     }
+     .modal-content {border: 0px solid rgba(0, 0, 0, 0.2);}
+     .modal-header {
+        border-bottom: 0 none !important;
+    }
+  
+/* Modal */
 
 /* Footer */
 

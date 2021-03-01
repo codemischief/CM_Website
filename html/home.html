@@ -73,7 +73,7 @@
                                 <li><a class="dropdown-item boldfont" href="about.html">About Us</a></li>
                                 <li><a class="dropdown-item boldfont" href="about.html#aboutus">Core Values</a></li>
                                 <li><a class="dropdown-item boldfont" href="about.html#ourteam">The Team</a></li>
-                                <li><a class="dropdown-item boldfont" href="#">Case Studies</a></li>
+                                <li><a class="dropdown-item boldfont" href="case_studies.html">Case Studies</a></li>
                                 <li><a class="dropdown-item boldfont" href="#tech__stack">Technologies</a></li>
                                 <li><a class="dropdown-item boldfont" href="contact.html">Contact Us</a></li>
                             </ul>
@@ -108,13 +108,13 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link boldfont mx-2" href="#" tabindex="-1" aria-disabled="true">Pricing</a>
-                        </li>
+                        </li> -->
 
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="submit">Let's
+                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="button">Let's
                             talk</button>
                     </form>
                 </div>
@@ -131,9 +131,29 @@
             <div class="col-lg-5 title">
                 <h1>Bringing In The Best Tech For Your Business</h1>
               <a href="#ourrole">  <button type="button" class="btn btn-outline-success head__learn custom-class">Get Started</button> </a>
-                <button type="button" class="btn btn-outline-success work__learn custom-class">How it Works</button>
-
+                <button id="#myBtn" class="btn btn-outline-success work__learn custom-class" data-bs-toggle="modal"  data-bs-target="#myModal">How it Works</button>
             </div>
+
+            <!-- Modal -->
+<div class="modal fade center" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+           <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" title={null}></button>
+            </div> 
+            <div class="modal-body" style="text-align: center;">
+              <video width="500" controls>
+              <source src="assets/male 1.mp4" type="video/mp4">
+              <source src="assets/male 1.mp4" type="video/ogg">
+                Your browser does not support HTML video.
+              </video>
+              <!-- <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/k_X3Rao_weM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div> -->
+            </div>
+        </div>
+    </div>
+</div>
 
             <div class="col-lg-7">
                 <img class="head__image" src="https://storage.googleapis.com/cm-website-assets/animation.gif" alt="buildingtechgif">
@@ -253,7 +273,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="test__one">
-                    <img src="https://www.w3schools.com/w3images/avatar2.png" alt="avatar" class="test__roundedimage">
+                    <img src="assets/samir.jpg" alt="avatar" class="test__roundedimage">
                     <div class="test__name">
                         <h4>Samir Jahagirdar</h4>
                         <p class="designation">VP, FIGmd</p>
@@ -377,11 +397,24 @@
 
     <!-- Trademarks -->
 
-    <!-- <section id="trademark">
+    <section id="trademark">
         <p><strong>* All Trademarks Are The Property Of Their Respective Owners</strong></p>
-    </section> -->
+    </section>
 
-    <!-- https://storage.googleapis.com/cm-website-assets/1.png -->
+   <!-- Chat-Bot -->
+
+<div class="bottom-left popup">
+    <iframe
+     allow="microphone;"
+     width="350"
+     height="430"
+     src="https://console.dialogflow.com/api-client/demo/embedded/4e9a3ef5-f387-4230-be0a-98629159abf8">
+    </iframe>
+ </div>
+
+
+
+
 
     <!-- Footer -->
     <section id="footer">
@@ -471,11 +504,41 @@
       
 
 <script type="text/javascript">
+//     $(document).ready(function () {
+      
+//       $("#myBtn").click(function(){
+//            $('#myModal').modal('show');
+//       });
+//   });
+
+// $("#myModal").on('hidden.bs.modal', function (e) {
+//     $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
+// });
+
+</script>
+
+
+
+<script type="text/javascript">
 var preloader = document.getElementById('loading');
 
 function myFunction(){
     preloader.style.display = "none";
 }
+
+</script>
+<script type="text/javascript">
+const button = document.querySelector('.talkbutton');
+const popup = document.querySelector('.popup');
+button.addEventListener('click', ()=>{
+//   event.stopPropagation();
+  popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+})
+
+// $(".talkbutton").click(function(event) {
+//      event.stopPropagation();
+//     $(".menu-window").toggle();
+//     });
 
 </script>
     <script src="javascript/home.js"></script>
