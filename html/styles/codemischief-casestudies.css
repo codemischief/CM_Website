@@ -86,20 +86,23 @@ p{
     border: 0 none;
   }
 
-.talkbutton{
+  .talkbutton{
     /* margin-right: 3rem; */
     color: #B7CC31;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    border-radius: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
     font-weight: bold;
+    border:  1px solid #764ABC;
+    background-color: white;
 }
 
 
 .talkbutton:focus,
-.talkbutton:active{
+.talkbutton:active,.talkbutton:hover{
     box-shadow:none !important;
     outline:0px !important;
+    border:  1px solid #764ABC;
 }
 
 .dropdown-menu .dropdown {
@@ -129,3 +132,49 @@ p{
 
 
 /* Navbar */
+
+.case-strip{
+    padding: 0% 13%;
+    text-align: center;
+    background-color: #B7CC31;
+    color: white;
+}
+
+h1{
+    padding: 60px 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 2rem; */
+}
+
+#case-studies{
+    padding: 0% 8%;
+    margin: 3rem 0rem;
+}
+
+
+.case_description{
+    box-shadow: 0 8px 6px -2px 	#C8C8C8, 0 8px 6px -2px #C8C8C8, 0 8px 6px -2px #C8C8C8;
+    padding: 2px 40px 40px 40px;
+}
+
+.about-easy{
+    margin-top: 2rem;
+}
+
+.case_heading{
+    text-align: center;
+}
+
+.case-heading{
+    margin-top: 5rem;
+}
+
+.case-heading h2{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.onorder-points li{
+    font-family: 'EB Garamond', serif;
+    color: #212121DE;
+}

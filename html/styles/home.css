@@ -7,7 +7,7 @@ body {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #fff url('../assets/4zsssg.gif') no-repeat center;
+    background: #fff url('../assets/pre\ loaded\ gif.gif') no-repeat center;
     z-index: 9999;
 }
 
@@ -20,6 +20,7 @@ a:active {color:#212529;}  /* Selected link   */
 p{
     font-family: 'EB Garamond', serif;
     color: #212121DE;
+    font-size: 20px;
 } 
 
 /* .mobile-text p{
@@ -114,17 +115,20 @@ p{
 .talkbutton{
     /* margin-right: 3rem; */
     color: #B7CC31;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    border-radius: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
     font-weight: bold;
+    border:  1px solid #764ABC;
+    background-color: white;
 }
 
 
 .talkbutton:focus,
-.talkbutton:active{
+.talkbutton:active,.talkbutton:hover{
     box-shadow:none !important;
     outline:0px !important;
+    border:  1px solid #764ABC;
 }
 
 .dropdown-menu .dropdown {
@@ -180,8 +184,9 @@ h1{
 } */
 
 .title{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
+
 
 .head__image{
     display: block;
@@ -191,19 +196,21 @@ h1{
 
 .head__learn{
     margin: 15px 0;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px 30px;
+    border-radius: 100px;
     color: black;
-    font-size: 18px;
+    font-size: 20px !important;
+    font-weight: 600;
     border-color: #B7CC31;
 }
 
 .work__learn{
     margin: 15px 20px;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 10px 30px;
+    border-radius: 100px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
     background-color: #B7CC31;
     border-color: #B7CC31;
 }
@@ -253,8 +260,13 @@ h1{
     color: #000000DE;
 }
 
+#ourrole h3{
+    font-size: 2.75rem;
+}
+
 .holdingcontainer{
     width: 100%;
+    margin-top: 2rem;
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
@@ -326,6 +338,10 @@ h1{
     
     .subhead{
         padding-top: 20px;
+    }
+
+    .subhead{
+        font-size: 18px;
     }
     
     
@@ -558,6 +574,16 @@ flex-wrap: wrap;
     display: inline-block;
 }
 
+.tech-content{
+    margin-left: 3rem;
+}
+
+@media (max-width: 1000px){
+    .tech-content{
+        margin-left: 0rem;
+    }
+}
+
 
 /* Across Globe  */
 
@@ -568,7 +594,12 @@ flex-wrap: wrap;
 
 .globe__heading{
     margin-bottom: 2rem;
-    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.globe__heading h2{
+    font-family: 'Overpass', sans-serif;
+    font-size: 3rem;
     color: #000000;
 }
 
@@ -615,10 +646,65 @@ h2{
     object-fit: contain;
 }
 
+
+.test-img-holder{
+    position: relative;
+    width: fit-content;
+    margin-left:auto;
+    margin-right:auto
+}
+
+/* .light-green-circle{
+    content: '' ;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: #B7CC31;
+    z-index: 111;
+}
+.dark-green-circle{
+    content: '' ;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    background-color: #a5c36a;
+    z-index: 111;
+}
+.image__you .dark-green-circle{
+    left: 5px;
+}
+.image__you .light-green-circle{
+    right: 0px;
+}
+
+.testi-bg{
+    height: 400px;
+    width: 150px;
+    bottom:0px; 
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    background-image: url('../assets/Group 835.png');
+}
+@media (max-width: 986px){
+    .testi-bg{
+        display: none;
+    }
+} */
+
 .test__detail{
     padding: 0 2rem;
     text-align: left;
+    /* font-family: 'Poppins', sans-serif; */
 }
+
 
 .test__name{
     padding-top: 2rem;
@@ -626,6 +712,7 @@ h2{
 
 .customer{
     text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
 
 .you{
@@ -663,6 +750,8 @@ h4{
 
 .designation{
     font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+    font-weight: 1000;
 }
 
 .read{
@@ -685,7 +774,7 @@ h4{
      text-align: center;
      margin: 3rem 0;
      font-family: 'Overpass', sans-serif;
-     font-size: 42px !important;
+     font-size: 3rem !important;
  }
 
  @media all and (max-width:480px) {
@@ -716,6 +805,10 @@ h4{
      font-family: 'Poppins', sans-serif;
  }
 
+ .speciality__description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+ }
 
  /* Why codeMischief */
 
@@ -743,7 +836,7 @@ h4{
 /* Our Technologies */
 
 #techstack{
-    padding: 3% 20%;
+    padding: 3% 15%;
    
    
 }
@@ -816,9 +909,9 @@ h4{
 
 #tech__stack h3{
     text-align: center;
-    margin: 3rem 0;
+    margin: 3rem 0 2rem 0;
     font-family: 'Overpass', sans-serif;
-    font-size: 42px !important;
+    font-size: 3rem !important;
 }
 
 @media all and (max-width:480px) {

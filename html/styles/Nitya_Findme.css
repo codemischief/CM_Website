@@ -6,6 +6,7 @@ body {
 p{
     font-family: 'EB Garamond', serif;
     color: #212121DE;
+    font-size: 20px;
 } 
 
 h2{
@@ -91,20 +92,23 @@ a:active {color:#212529;}  /* Selected link   */
     border: 0 none;
   }
 
-.talkbutton{
+  .talkbutton{
     /* margin-right: 3rem; */
     color: #B7CC31;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    border-radius: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
     font-weight: bold;
+    border:  1px solid #764ABC;
+    background-color: white;
 }
 
 
 .talkbutton:focus,
-.talkbutton:active{
+.talkbutton:active,.talkbutton:hover{
     box-shadow:none !important;
     outline:0px !important;
+    border:  1px solid #764ABC;
 }
 
 .dropdown-menu .dropdown {
@@ -153,11 +157,11 @@ h1{
 }
 
 .title{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .top__box{
-    margin-top: 9rem;
+    margin-top: 5rem;
 }
 
 .head__image{
@@ -169,10 +173,11 @@ h1{
 
 .head__learn{
     margin: 15px 0;
-    padding: 10px 20px;
-    border-radius: 15px;
+    padding: 10px 30px;
+    border-radius: 100px;
     color: black;
-    font-size: 18px;
+    font-size: 20px !important;
+    font-weight: 600;
     border-color: #B7CC31;
 }
 
@@ -223,16 +228,17 @@ h1{
     color: #707070;
 }   */
 
- .knowMore{
+.knowMore{
     background-color: #B7CC31;; 
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    border-radius: 5px;
+    font-size: 22px;
     cursor: pointer;
-    padding: 10px 24px;
+    padding: 15px 40px;
 }
 
 .know__button{
@@ -245,6 +251,7 @@ h1{
     box-shadow:none !important;
     outline:0px !important;
 }
+
 
 /* Our Products */
 

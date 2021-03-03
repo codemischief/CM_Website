@@ -6,6 +6,7 @@ body {
 p{
     font-family: 'EB Garamond', serif;
     color: #212121DE;
+    font-size: 20px;
 } 
 
 a {color:#212529;text-decoration: none;}  /* Unvisited link  */
@@ -87,17 +88,20 @@ a.active{
 .talkbutton{
     /* margin-right: 3rem; */
     color: #B7CC31;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    border-radius: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
     font-weight: bold;
+    border:  1px solid #764ABC;
+    background-color: white;
 }
 
 
 .talkbutton:focus,
-.talkbutton:active{
+.talkbutton:active,.talkbutton:hover{
     box-shadow:none !important;
     outline:0px !important;
+    border: 1px solid #764ABC;
 }
 
 .dropdown-menu .dropdown {
@@ -150,12 +154,12 @@ h1{
 
 
 .title{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .head__image{
     display: block;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -202,13 +206,26 @@ h1{
 #ourteam{
    
     /* text-align: center; */
-    padding: 3% 13%;
+    padding: 3% 7%;
     /* display: flex; 
     align-items: center;  */
 }
 
-/* .ourteambg{
-    background-image: url('../assets/Path\ 3224.svg');
+.ourteambg{
+    background-image: url('https://storage.googleapis.com/cm-website-assets/midbg.svg');
+    width: 120%;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position:top left;
+    height: 140vh;
+    position: absolute;
+    top: 920px;
+    right: 0;
+    z-index: -1;
+}
+
+.ourcustbg{
+    background-image: url('https://storage.googleapis.com/cm-website-assets/midbg.svg');
     width: 120%;
     background-size: 60% ;
     background-repeat: no-repeat;
@@ -218,15 +235,16 @@ h1{
     top: -150px;
     right: 0;
     z-index: -1;
-} */
+}
 
 .team-head{
-    padding-top: 7rem;
+    margin-top: 12rem;
 }
 
 @media screen and (max-width: 991px){
     .team-head{
         text-align: center;
+        margin-top: 8rem;
     }
 }
 
@@ -348,7 +366,7 @@ text-align: center;
 
 
 #expertqualities{
-    padding: 0% 15%; 
+    padding: 0% 8%; 
     margin-top: 6rem;
 }
 
@@ -371,7 +389,7 @@ text-align: center;
       font-size: 1.25rem;
   } */
   .whyus_childL{
-      /* flex: 1; */
+      flex: 1;
       padding: 30px;
       width: 80%;
       margin: auto;
@@ -385,7 +403,7 @@ text-align: center;
   }
 
   .whyus_childR{
-    /* flex: 1; */
+    flex: 1;
     padding: 30px;
     width: 80%;
     margin: auto;

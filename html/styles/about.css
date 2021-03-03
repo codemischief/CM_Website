@@ -7,9 +7,11 @@ body {
     font-family: 'Poppins', sans-serif !important;
     /* font-size: 28px; */
 }
+
 p{
     font-family: 'EB Garamond', serif;
     color: #212121DE;
+    font-size: 20px;
 } 
 
 h2,h3{
@@ -87,20 +89,23 @@ a.active{
     border: 0 none;
   }
 
-.talkbutton{
+  .talkbutton{
     /* margin-right: 3rem; */
     color: #B7CC31;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
-    border-radius: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 20px;
     font-weight: bold;
+    border:  1px solid #764ABC;
+    background-color: white;
 }
 
 
 .talkbutton:focus,
-.talkbutton:active{
+.talkbutton:active,.talkbutton:hover{
     box-shadow:none !important;
     outline:0px !important;
+    border:  1px solid #764ABC;
 }
 
 .dropdown-menu .dropdown {
@@ -149,7 +154,7 @@ h1{
 }
 
 .title{
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 
 .head__image{
@@ -160,10 +165,11 @@ h1{
 
 .head__learn{
     margin: 15px 0;
-    padding: 10px 20px;
-    border-radius: 15px;
+    padding: 10px 30px;
+    border-radius: 100px;
     color: black;
-    font-size: 18px;
+    font-size: 20px !important;
+    font-weight: 600;
     border-color: #B7CC31;
 }
 
@@ -355,6 +361,7 @@ h1{
     flex: 2;
     font-family: 'EB Garamond', serif;
     color: #212121DE;
+    font-size: 20px;
 }
 
 .content-title{

@@ -114,7 +114,7 @@
 
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="button">Let's
+                        <button class="btn talkbutton" id="talkfont" type="button">Let's
                             talk</button>
                     </form>
                 </div>
@@ -130,7 +130,7 @@
         <div class="row">
             <div class="col-lg-5 title">
                 <h1>Bringing In The Best Tech For Your Business</h1>
-              <a href="#ourrole">  <button type="button" class="btn btn-outline-success head__learn custom-class">Get Started</button> </a>
+              <a href="#ourrole">  <button type="button" class="btn  head__learn custom-class">Get Started</button> </a>
                 <button id="#myBtn" class="btn btn-outline-success work__learn custom-class" data-bs-toggle="modal"  data-bs-target="#myModal">How it Works</button>
             </div>
 
@@ -205,7 +205,7 @@
                 business?</p>  </a> -->
 
                 <div><a href="offerings.html">  <div class="business"><h4>Small/Medium Business</h2></div> 
-                    <p>Do you want to build an online presence to generate more leads, increase sales and grow your
+                    <p class="subhead">Do you want to build an online presence to generate more leads, increase sales and grow your
                       business?</p>  </a></div>
         
             </div>
@@ -255,11 +255,15 @@
     <!-- What our Customers Say -->
 
     <section id="testimonial">
-
+        <!-- <div class="testi-bg"></div> -->
         <div class="row">
             <div class="col-lg-4">
                 <div class="test__one">
+                    <div class="test-img-holder">
+                    <div class="dark-green-circle"></div>
                     <img src="https://storage.googleapis.com/cm-website-assets/manoj.png" alt="avatar" class="test__roundedimage">
+                    <div class="light-green-circle"></div>
+                 </div>
                     <div class="test__name">
                         <h4>Manoj Gupta</h4>
                         <p class="designation">CEO, EasyAspataal</p>
@@ -273,13 +277,13 @@
             </div>
             <div class="col-lg-4">
                 <div class="test__one">
-                    <img src="assets/samir.jpg" alt="avatar" class="test__roundedimage">
+                    <img src="assets/Samir.png" alt="avatar" class="test__roundedimage">
                     <div class="test__name">
                         <h4>Samir Jahagirdar</h4>
                         <p class="designation">VP, FIGmd</p>
                     </div>
                     <div class="test__detail">
-                        <p>We are running expressmimps,a product that codemischief help us build and our healthcare
+                        <p>We are running expressmimps, a product that codemischief help us build and our healthcare
                             partner is happy with what they got. </p>
                            <a href="#"><span class="read">« Read more »</span></a> 
                     </div>
@@ -317,21 +321,21 @@
                 <div class="whyusalign">
                     <img src="https://storage.googleapis.com/cm-website-assets/ourteam.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Our Team</h4>
-                    <p class="speciality__description">Professional to the core, adaptable to your needs! </p>
+                    <p class="speciality__description">Professional To The Core, Adaptable To Your Needs! </p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="whyusalign">
                     <img src="https://storage.googleapis.com/cm-website-assets/ourexpertise.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Our Expertise</h4>
-                    <p class="speciality__description">Building great tech products customised for your business</p>
+                    <p class="speciality__description">Building Great Tech Products Customised For Your Business</p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="whyusalign">
                     <img src="https://storage.googleapis.com/cm-website-assets/delight.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Customer delight</h4>
-                    <p class="speciality__description">Going the extra mile for the best outputs
+                    <p class="speciality__description">Going The Extra Mile For The Best Outputs
                     </p>
                 </div>
             </div>
@@ -339,7 +343,7 @@
                 <div class="whyusalign">
                     <img src="https://storage.googleapis.com/cm-website-assets/valueformoney.png" alt="avatar" class="code__image">
                     <h4 class="speciality">Value For Money</h4>
-                    <p class="speciality__description">Best in class pricing with uncompromised results
+                    <p class="speciality__description">Best In Class Pricing With Uncompromised Results
                     </p>
                 </div>
             </div>
@@ -360,12 +364,16 @@
    <div class="row mobile-row">
     <div class="col-lg-4 mobile-text" >
         <div data-aos="zoom-in" data-aos-delay="500">
-            <h4>UI/UX</h4>
-            <p>Design An Engaging Presence That Is Easy To Use, Attractive And Well Designed.</p>
+            <div>
+                <h4>UI/UX</h4>
+                <p>Design An Engaging Presence That Is Easy To Use, Attractive And Well Designed.</p>
+            </div>
         </div>
-        <div  data-aos="zoom-in" data-aos-delay="800">
-            <h4>Software For Enterprises</h4>
-            <p>Our Enterprise Development Experience Gives Us The Ability To Overcome Obstacles & Integrate With Existing Systems</p>
+        <div data-aos="zoom-in" data-aos-delay="800">
+            <div>
+                <h4>Software For Enterprises</h4>
+                <p>Our Enterprise Development Experience Gives Us The Ability To Overcome Obstacles & Integrate With Existing Systems</p>
+            </div>
         </div>
     </div>
     <div class="col-lg-4">
@@ -388,11 +396,11 @@
     <!-- Our Technologies -->
 
     <div id="tech__stack">
-        <h3>Our Technologies</h3>
+        <h3>OUR TECHNOLOGIES</h3>
     </div>
 
     <section id="techstack">
-        <img class="img-fluid" src="https://storage.googleapis.com/cm-website-assets/Tech.png" alt="technology">
+        <img class="img-fluid" src="assets/techno.png" alt="technology">
     </section>
 
     <!-- Trademarks -->
@@ -525,6 +533,11 @@ var preloader = document.getElementById('loading');
 function myFunction(){
     preloader.style.display = "none";
 }
+
+// setTimeout(function(){        
+//     $('#preloader').fadeOut();
+//     $('.preloader_img').delay(150).fadeOut('slow'); 
+// }, 10000);
 
 </script>
 <script type="text/javascript">
