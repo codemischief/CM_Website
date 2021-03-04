@@ -56,9 +56,9 @@ p{
     display: block;
 } */
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover {
     display: block;
-}
+  }
 
 .dropdown-menu{
     margin-top: 0;
@@ -183,3 +183,135 @@ p{
   .btn-14:active {
     top: 2px;
   }
+
+  .card-title{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Footer */
+
+  #footer{
+    background-image: url('../assets/footer-img.jpeg');
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 86vh;
+    margin-top: 80px;
+}
+
+
+.footer-content{
+    position: absolute;
+    z-index: 1111;  
+    height: fit-content;
+    width: 100%;
+    color: white;
+    bottom: 0;  
+}
+.main-footer-content{ 
+    position: relative; 
+    top: 00px;
+    align-items: flex-end;
+}
+.main-footer-content p{
+    margin-top: 25px;
+    font-size: 1.1rem;
+    font-size: smaller;
+}
+.footer-content p{
+    color: white !important;
+    font-family: var(--bs-font-sans-serif)
+
+}
+.footer-content .row{
+    width: 80%;
+    margin: auto;
+}
+
+
+.footer-content .row{
+    width: 80%;
+    margin: auto;
+} 
+.form-input{
+    background-color: #fff;    
+    margin: 40px 0 20px 0;
+    color:black;
+    padding: 10px 15px; 
+    width: 124%;
+    border-radius: 50px;
+    display: flex;
+    align-items:center;
+}
+.form-input input{
+    border:none !important;
+    background:none;
+    width: 90%;
+    font-size:20px;
+
+}
+.form-input input:focus,.form-input input:active,.form-input input:visited{
+    border: none !important;
+}
+@media (max-width: 1580px){
+    #footer{
+        height: 100vh
+    }
+}
+@media (max-width: 1360px){
+    #footer{
+        height: 110vh
+    }
+}
+@media (max-width: 1280px){
+    .footer-content{
+        position:relative;
+    }
+    .repos{
+        position:relative;
+        top:4rem;
+    }
+}
+@media (max-height:650px){
+    #footer{
+        height:133vh;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size:32px;
+    }
+    #footer{
+        background: none;
+        top:100px
+    }
+    .footer-content{
+
+        background-color:#191930 ;
+        position: relative;
+    }
+    .repos{
+        top:0
+    }
+}
+
+.read{
+    color: #B7CC31;
+}
+
+.social-style{
+    /* background-color: white;
+    padding: 10px;
+    border-radius: 50%; */
+    object-fit: contain !important;
+  }
+  
+  /* i.fa {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 15px;
+    color: white;
+  
+  } */
