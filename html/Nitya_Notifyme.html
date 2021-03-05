@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./assets/fav icon.png"/>
+    <link rel="icon" type="image/png" href="https://storage.googleapis.com/cm-website-assets/fav icon.png"/>
     <title>Nitya-NotifyMe</title>
 </head>
 
@@ -94,7 +94,7 @@
 
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="submit">Let's
+                        <button class="btn talkbutton" id="talkfont" type="button">Let's
                             talk</button>
                     </form>
                 </div>
@@ -159,7 +159,7 @@
         <div class="row">
 
             <div class="col-lg-4">
-                <div class="Authorization">
+                <div class="Authorization_one">
                     <!-- <div class="Authorization__description">
                         <h5>Customizable</h5>
                         <p>
@@ -316,6 +316,19 @@
 
     </section>
 
+    <!-- Chat-Bot -->
+
+<div class="bottom-left popup">
+    <iframe
+     allow="microphone;"
+     width="350"
+     height="430"
+     src="https://console.dialogflow.com/api-client/demo/embedded/4e9a3ef5-f387-4230-be0a-98629159abf8">
+    </iframe>
+ </div>
+
+ <!-- Chat-Bot -->
+
     <!-- Footer -->
     <section id="footer">
         <!-- <div class="footer-back-bg"></div>
@@ -335,9 +348,9 @@
                         Kerala India - 870307 <br/>
                         <strong >Branch Office: </strong> <br/>
                         Codemischief Software Solutions (OPC) Private Limited <br/>
-                        Super Mall Society, G-23, Solunke Vihar Road, Wanwadi, Pune, <br/>
+                        Super Mall Society, G-23, Salunkhe Vihar Road, Wanwadi, Pune, <br/>
                         Maharashtra lndia- 411040<br><br>Website: www.codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
-                        <br>email: hello@codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
+                        <br>email: hello@codemischief.io</br>
                     </p>
                 </div>
                 </div>
@@ -406,7 +419,13 @@
         </div>
     </section>
 
-
+    <script type="text/javascript">
+        const button = document.querySelector('.talkbutton');
+        const popup = document.querySelector('.popup');
+        button.addEventListener('click', ()=>{
+          popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+        })
+    </script>
     <script src="javascript/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">

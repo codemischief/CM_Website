@@ -51,7 +51,7 @@ a:active {color:#212529;}  /* Selected link   */
     display: block;
 } */
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover{
     display: block;
 }
 
@@ -259,6 +259,11 @@ h1{
     margin-top: 5rem;
 }
 
+.Authorization_one{
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
 @media (max-width: 1000px){
     
     .Authorization img{
@@ -282,6 +287,11 @@ h1{
         margin-right: .5rem;
         /* font-size:10pt; */
      }
+
+     .Authorization_one{
+        /* margin-top: 5rem; */
+        margin-left: 0rem;
+    }
 }
 
 
@@ -379,6 +389,16 @@ object-fit: contain;
 
 
 /* Our Products */
+
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  /* Chat-bot */
 
 /* Background */
 

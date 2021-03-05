@@ -11,6 +11,7 @@ body {
     z-index: 9999;
 }
 
+
 a {color:#212529;text-decoration: none;}  /* Unvisited link  */
 a:visited {color:#212529;} /* Visited link    */
 a:hover {color:#212529;}   /* Mouse over link */
@@ -722,6 +723,11 @@ h2{
     font-size: 20px;
     color: #B7CC31;
 }
+
+.read-more a{
+    color: #B7CC31;
+}
+
 .test__name{
     padding-top: 2rem;
     width: fit-content;

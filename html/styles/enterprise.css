@@ -565,6 +565,18 @@ padding-right: 3rem;
 
 /* westarted */
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+
+/* Chat-bot */
+
+
 /* Footer */
 
 

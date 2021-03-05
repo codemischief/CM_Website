@@ -52,7 +52,7 @@ a:active {color:#212529;}  /* Selected link   */
     display: block;
 } */
 
-.dropdown:hover .dropdown-menu{
+.dropdown:hover{
     display: block;
 }
 .dropdown-menu{
@@ -359,6 +359,10 @@ padding-bottom: 3rem;
     padding-bottom: 2rem;
 }
 
+.nitya__head h3{
+    font-family: 'Poppins', sans-serif;
+ }
+
 .nityaauth_head{
     margin-bottom: 5rem;
 }
@@ -391,6 +395,17 @@ padding-bottom: 3rem;
 }
 
 /* Our Products */
+
+
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  /* Chat-bot */
 
 /* Background */
 

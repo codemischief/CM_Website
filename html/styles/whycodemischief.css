@@ -619,6 +619,17 @@ text-align: center;
     border: none !important;
 } */
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+
+/* Chat-bot */
+
 
 #footer{
     background-image: url('../assets/footer-img.jpeg');

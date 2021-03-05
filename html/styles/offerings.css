@@ -496,6 +496,18 @@ h1{
 
 /* learn-more */
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+
+/* Chat-bot */
+
+
 /* Footer */
 
 

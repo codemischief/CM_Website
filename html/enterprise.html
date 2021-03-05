@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./assets/fav icon.png"/>
+    <link rel="icon" type="image/png" href="https://storage.googleapis.com/cm-website-assets/fav icon.png"/>
     <title>Services</title>
 </head>
 
@@ -190,7 +190,7 @@
 
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="submit">Let's
+                        <button class="btn btn-outline-success talkbutton" id="talkfont" type="button">Let's
                             talk</button>
                     </form>
                 </div>
@@ -234,7 +234,7 @@
 
     <section id="headtwo">
 
-       <img style="width: 70%;" src="assets/how.png" class="img-fluid" />
+       <img style="width: 70%;" src="https://storage.googleapis.com/cm-website-assets/how.png" class="img-fluid" />
 
     </section>
 
@@ -242,7 +242,7 @@
     <section id="enterprise__desc">
         <p>We adopt a service-oriented approach to build enterprise solutions for our customers. 
             Our expertise is in Javascript, although we can work on a gamut of technologies to deliver what it needs for an enterprise solution. 
-            You can check out our <a href="case_studies.html" target="_blank"><span class="case-link">Case Studies</span></a> to understand our developed solutions on the clouds and how our customers have benefited from our association.
+            You can check out our <a href="case_studies.html" target="_blank"><span class="case-link"><strong>Case Studies</strong></span></a> to understand our developed solutions on the clouds and how our customers have benefited from our association.
             Broadly the following methodology is followed for an enterprise solution development.
             </p>
     </section>
@@ -298,7 +298,7 @@
     </section> -->
     </div>
     <section class="think">
-        <img src="assets/ThinkMakecircle.png" alt="" class="img-fluid" />
+        <img src="https://storage.googleapis.com/cm-website-assets/ThinkMakecircle.png" alt="" class="img-fluid" />
     </section>
 
     <section id="think__desc">
@@ -331,7 +331,7 @@
 
             </div>
             <div class="col-lg-7">
-                <img class="head__image" src="assets/dev methedology.png" alt="productprocesssing">
+                <img class="head__image" src="https://storage.googleapis.com/cm-website-assets/dev methedology.png" alt="productprocesssing">
             </div>
 
         </div>
@@ -688,6 +688,17 @@
            <a href="contact.html"><button type="button" class="btn head__learn">Learn More</button> </a>
     </section>
 
+<!-- Chat-Bot -->
+
+<div class="bottom-left popup">
+    <iframe
+     allow="microphone;"
+     width="350"
+     height="430"
+     src="https://console.dialogflow.com/api-client/demo/embedded/4e9a3ef5-f387-4230-be0a-98629159abf8">
+    </iframe>
+ </div>
+
 
 <!-- Footer -->
 <section id="footer">
@@ -700,7 +711,7 @@
         <div class="row main-footer-content" style="width: 90%;">
             <div class="col-md-5 col-lg-5 col-sm-12 repos" style="align-self: flex-end;margin-top: 60px;">
                 <div class="row mt-2">
-                    <img style="width:189px; height: 250px;margin-bottom: 20px;object-fit: contain;" src="assets/code_logo.png" class="col-lg-2"/>
+                    <img style="width:189px; height: 250px;margin-bottom: 20px;object-fit: contain;" src="https://storage.googleapis.com/cm-website-assets/code_logo.png" class="col-lg-2"/>
                 </div> 
                 <div class="row"><h3 style="margin-bottom: 0" class="mt-1">Address: </h3></div>
                 <div class="row "><p style="margin-top: 5px; font-size:smaller;"><strong>Head Office: </strong><br />Codemischief Software Solutions (OPC) Private Limited
@@ -708,9 +719,9 @@
                     Kerala India - 870307 <br/>
                     <strong >Branch Office: </strong> <br/>
                     Codemischief Software Solutions (OPC) Private Limited <br/>
-                    Super Mall Society, G-23, Solunke Vihar Road, Wanwadi, Pune, <br/>
+                    Super Mall Society, G-23, Salunkhe Vihar Road, Wanwadi, Pune, <br/>
                     Maharashtra lndia- 411040<br><br>Website: www.codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
-                    <br>email: hello@codemischief.io&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephone: +91 8828844344</br>
+                    <br>email: hello@codemischief.io</br>
                 </p>
             </div>
             </div>
@@ -778,6 +789,15 @@
         </div>
     </div>
 </section>
+
+<script type="text/javascript">
+    const button = document.querySelector('.talkbutton');
+    const popup = document.querySelector('.popup');
+    button.addEventListener('click', ()=>{
+      popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+    })
+</script>
+
     <script src="javascript/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">

@@ -273,6 +273,17 @@ h1{
 
 /* We carry ourself with */
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+
+/* Chat-bot */
+
 
 
 /* Our Team */
@@ -301,6 +312,7 @@ h1{
 .whyusalign{
     text-align: center;
     margin-bottom: 3rem;
+    cursor: pointer;
 }
 
 .team_name{
@@ -326,8 +338,27 @@ h1{
  border: none;
 }
 
+.bottom-image{
+    margin-left: 8rem;
+}
+
+.bottomleft-image{
+    margin-right: 6rem;
+}
+
+@media all and (max-width:1000px) {
+    .bottom-image{
+        margin-left: 0rem;
+    }
+
+    .bottomleft-image{
+        margin-right: 0rem;
+    }
+    
+ }
+
 .modal-border{
-    border: 1px solid #666666 !important;
+    border: 1px solid grey !important;
     padding: 10px 0px;
 }
 

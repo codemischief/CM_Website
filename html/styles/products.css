@@ -278,6 +278,17 @@ h1{
 
 /* Learn-More */
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  
+  /* Chat-bot */
+
 
 /* Footer */
 

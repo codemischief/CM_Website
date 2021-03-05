@@ -188,6 +188,18 @@ p{
     font-family: 'Poppins', sans-serif;
   }
 
+
+  /* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  
+  /* Chat-bot */
+
   /* Footer */
 
   #footer{

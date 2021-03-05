@@ -89,10 +89,12 @@ a:active {color:#212529;}  /* Selected link   */
 .talkbutton{
   /* margin-right: 3rem; */
   color: #B7CC31;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  border-radius: 15px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  border-radius: 20px;
   font-weight: bold;
+  border:  1px solid #764ABC;
+  background-color: white;
 }
 
 
@@ -224,7 +226,19 @@ a:active {color:#212529;}  /* Selected link   */
   background: -o-linear-gradient(left, #B7CC31 0%, #B7CC31 100%);
   background: linear-gradient(to right, #B7CC31 0%, #B7CC31 100%);
 }
-#footer{
+
+/* Chat-bot */
+
+.bottom-left {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display:none;
+}
+
+/* Chat-bot */
+
+/* #footer{
     position: relative;
     height: 90vh;
     margin-top: 80px;
@@ -303,6 +317,8 @@ a:active {color:#212529;}  /* Selected link   */
     width: 80%;
     margin: auto;
 } 
+
+*/
 
 .card-1{
     background: url('https://storage.googleapis.com/cm-website-assets/Card.png');
@@ -467,7 +483,7 @@ a:active {color:#212529;}  /* Selected link   */
         top: -1rem;
     }
 }
-
+ 
 
 /* Footer */
 

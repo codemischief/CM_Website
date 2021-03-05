@@ -181,6 +181,17 @@ h1{
     font-size: 20px;
 }
 
+/* Chat-bot */
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  
+  /* Chat-bot */
+
 /* Footer */
 
 #footer{
