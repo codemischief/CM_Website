@@ -18,6 +18,8 @@ a:visited {color:#212529;} /* Visited link    */
 a:hover {color:#212529;}   /* Mouse over link */
 a:active {color:#212529;}  /* Selected link   */
 
+
+
 /* NavBar */
 
 #navbar {
@@ -127,6 +129,12 @@ a.active{
 .dropdown-menu > li:hover > .submenu{
     display: block;
 }
+
+@media all and (max-width:1000px) {
+    ul.submenu{ 
+      position: unset !important;
+    }
+  }
 
 /* Navbar */
 
@@ -287,6 +295,9 @@ h1{
     display:none;
   }
   
+  .display{
+    display: block;
+  }
   /* Chat-bot */
 
 

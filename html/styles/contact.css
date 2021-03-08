@@ -129,6 +129,11 @@ a:active {color:#212529;}  /* Selected link   */
   display: block;
 }
 
+@media all and (max-width:1000px) {
+  ul.submenu{ 
+    position: unset !important;
+  }
+} 
 
 /* Navbar */
 
@@ -183,12 +188,21 @@ a:active {color:#212529;}  /* Selected link   */
     box-shadow: 8px 16px 32px #0000001A;
 }
 
-.round-social .fa{
+.round-social{
   background:#B7CC31;
-  padding: 15px;
+  /* padding: 10px;
   border-radius: 50%;
   margin-right: 5px;
+  color: white; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 8px;
+  vertical-align: middle;
+  padding: 20px;
   color: white;
+  
 }
 .contact2 .detail-box .round-social {
   margin-top: 100px;
@@ -236,6 +250,9 @@ a:active {color:#212529;}  /* Selected link   */
   display:none;
 }
 
+.display{
+  display: block;
+}
 /* Chat-bot */
 
 /* #footer{

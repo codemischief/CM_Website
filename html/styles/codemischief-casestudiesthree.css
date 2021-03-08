@@ -131,6 +131,12 @@ p{
     display: block;
 }
 
+@media all and (max-width:1000px) {
+    ul.submenu{ 
+      position: unset !important;
+    }
+  }
+
 
 /* Navbar */
 
@@ -188,6 +194,10 @@ h1{
     bottom: 0;
     right: 0;
     display:none;
+  }
+
+  .display{
+    display: block;
   }
   
   /* Chat-bot */

@@ -150,6 +150,12 @@ a:active {color:#212529;}  /* Selected link   */
     display: block;
 }
 
+@media all and (max-width:1000px) {
+    ul.submenu{ 
+      position: unset !important;
+    }
+  }
+
 
 /* Navbar */
 
@@ -567,12 +573,19 @@ padding-right: 3rem;
 
 /* Chat-bot */
 
+
+
 .bottom-left {
     position: fixed;
     bottom: 0;
     right: 0;
     display:none;
   }
+  
+  .display{
+    display: block;
+  }
+ 
 
 /* Chat-bot */
 

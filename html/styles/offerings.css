@@ -127,6 +127,11 @@ a.active{
     display: block;
 }
 
+@media all and (max-width:1000px) {
+    ul.submenu{ 
+      position: unset !important;
+    }
+  } 
 
 /* Navbar */
 
@@ -504,8 +509,11 @@ h1{
     right: 0;
     display:none;
   }
-
-/* Chat-bot */
+  
+  .display{
+    display: block;
+  }
+  /* Chat-bot */
 
 
 /* Footer */

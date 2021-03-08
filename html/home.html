@@ -142,13 +142,13 @@
 
             <!-- Modal -->
 <div class="modal fade center" id="myModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
            <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" title={null}></button>
             </div> 
             <div class="modal-body" style="text-align: center;">
-              <video width="500" controls>
+              <video class="video" width="500" controls>
               <source src="https://storage.googleapis.com/cm-website-assets/male 1.mp4" type="video/mp4">
               <source src="https://storage.googleapis.com/cm-website-assets/male 1.mp4" type="video/ogg">
                 Your browser does not support HTML video.
@@ -535,8 +535,19 @@ function myFunction(){
 const button = document.querySelector('.talkbutton');
 const popup = document.querySelector('.popup');
 button.addEventListener('click', ()=>{
-  popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+    popup.classList.toggle("display")
+//   popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
 })
+</script>
+
+<script>
+    $(function(){
+    $('#myModal').modal({
+        show: false
+    }).on('hidden.bs.modal', function(){
+        $(this).find('video')[0].pause();
+    });
+});
 </script>
 
 

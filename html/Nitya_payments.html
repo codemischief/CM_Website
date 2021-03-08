@@ -502,7 +502,8 @@
         const button = document.querySelector('.talkbutton');
         const popup = document.querySelector('.popup');
         button.addEventListener('click', ()=>{
-          popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
+            popup.classList.toggle("display")
+        //   popup.style.display === 'none' ? popup.style.display = 'block' : popup.style.display = 'none';
         })
     </script>
 

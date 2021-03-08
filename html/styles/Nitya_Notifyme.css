@@ -125,6 +125,12 @@ a:active {color:#212529;}  /* Selected link   */
     display: block;
 }
 
+@media all and (max-width:1000px) {
+    ul.submenu{ 
+      position: unset !important;
+    }
+  }
+
 
 /* Navbar */
 
@@ -397,6 +403,10 @@ object-fit: contain;
     bottom: 0;
     right: 0;
     display:none;
+  }
+  
+  .display{
+    display: block;
   }
   /* Chat-bot */
 
