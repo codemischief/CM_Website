@@ -502,7 +502,7 @@ margin-top: 3rem;
 
 
   #footer{
-    background-image: url('../assets/footer-img.jpeg');
+    background-image: url('https://storage.googleapis.com/cm-website-assets/footer-img.jpeg');
     background-size: cover;
     width: 100%;
     position: relative;
