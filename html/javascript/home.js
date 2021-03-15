@@ -15,7 +15,10 @@ function myFunction() {
     var name = document.querySelector(".input-name").value;
     var email = document.querySelector(".input-email").value;
     var message = document.querySelector(".input-textarea").value;
-    console.log(name, email, message);
+    // console.log(name, email, message);
+
+    var form = document.getElementById("myForm");
+    form.reset();
 
 
     const data = { name: name, email: email, message: message};
@@ -29,10 +32,10 @@ function myFunction() {
     })
     .then(response => response.json())
     .then(data => {
-      console.log('Success:', data);
+      // console.log('Success:', data);
     })
     .catch((error) => {
-      console.error('Error:', error);
+      // console.error('Error:', error);
     });
 
   }
