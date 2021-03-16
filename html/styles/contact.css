@@ -633,3 +633,18 @@ a:active {color:#212529;}  /* Selected link   */
   color: white;
 
 } */
+
+.fontsize{
+  font-size: 12px !important;
+}
+
+.alert-pop{
+  padding: 20px;
+  background-color: #B7CC31;
+  opacity: 0.8;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}

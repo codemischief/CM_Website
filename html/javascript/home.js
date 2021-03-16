@@ -12,13 +12,49 @@
 // }
 
 function myFunction() {
-    var name = document.querySelector(".input-name").value;
-    var email = document.querySelector(".input-email").value;
-    var message = document.querySelector(".input-textarea").value;
-    // console.log(name, email, message);
+    let name = document.querySelector(".input-name").value;
+    let email = document.querySelector(".input-email").value;
+    let message = document.querySelector(".input-textarea").value;
+    let popup = document.querySelector("#my-popup");
 
-    var form = document.getElementById("myForm");
-    form.reset();
+  //  console.log(message);
+    
+
+    
+			if(name === ""){
+				document.getElementById('username').innerHTML =" * Please fill the username";
+				return false;
+			}
+
+			if(!isNaN(name)){
+				document.getElementById('username').innerHTML =" * Invalid user name";
+				return false;
+			}
+
+
+      if(email === ""){
+				document.getElementById('emailids').innerHTML =" * Email-id is required";
+				return false;
+			}
+			if(email.indexOf('@') <= 0 ){
+				document.getElementById('emailids').innerHTML =" * Email-id is invalid";
+				return false;
+			}
+
+			if((email.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
+				document.getElementById('emailids').innerHTML = " * Email-id is invalid";
+				return false;
+			}
+
+      if(message === ""){
+				document.getElementById('textarea').innerHTML = " * Message is required";
+				return false;
+			}
+
+    // let form = document.getElementById("myForm");
+    // form.reset();
+
+   
 
 
     const data = { name: name, email: email, message: message};
@@ -33,6 +69,10 @@ function myFunction() {
     .then(response => response.json())
     .then(data => {
       // console.log('Success:', data);
+      popup.classList.remove('hidden');
+      setTimeout(function() {
+        $('#my-popup').fadeOut('slow');
+    }, 4000); 
     })
     .catch((error) => {
       // console.error('Error:', error);
