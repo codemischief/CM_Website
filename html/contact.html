@@ -159,17 +159,17 @@
     
                         <div class="col-md-6 col-sm-12">
                             <div class="contact-box p-4">
-                                <form id="myForm">
+                                <form id="myForm" onsubmit="myFunction(event)">
                                     <div class="row">
                                         <div class="col-lg-6  col-sm-12">
                                             <div class="form-group mt-3">
-                                                <input class="form-control input-name" name="name" type="text" placeholder="Name">
+                                                <input class="form-control input-name" name="name" type="text" placeholder="Name" required="required">
                                                 <span id="username" class="text-danger font-weight-bold fontsize"> </span>
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-sm-12">
                                             <div class="form-group mt-3">
-                                                <input class="form-control input-email" name="email" type="email" placeholder="Email Address">
+                                                <input class="form-control input-email" name="email" type="email" placeholder="Email Address" required="required">
                                                 <span id="emailids" class="text-danger font-weight-bold fontsize"> </span>
                                             </div>
                                         </div>
@@ -177,12 +177,12 @@
                                             <div class="form-group mt-3">
                                                 <textarea class="form-control col-lg-12 input-textarea" id="message" name="message"
                                                     placeholder="1 or 2 sentences on how we could help you, Help us understand your problem statement."
-                                                    rows="4"></textarea>
-                                                    <span id="textarea" class="text-danger font-weight-bold fontsize"> </span>
+                                                    rows="4" required="required"></textarea>
+                                                <span id="textmessage" class="text-danger font-weight-bold fontsize"> </span>
                                             </div>
                                         </div>
                                         <div class="col-lg-12">
-                                            <button class="btn send btn-large rounded-pill mt-3 text-center" onclick="return myFunction()" type="submit">Send</button>
+                                            <button class="btn send btn-large rounded-pill mt-3 text-center" type="submit">Send</button>
                                         </div>
                                     </div>
                                 </form>

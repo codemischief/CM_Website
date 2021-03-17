@@ -11,56 +11,68 @@
 //     document.getElementById("my_audio").play();
 // }
 
-function myFunction() {
+async function myFunction(event) {
+    event.preventDefault();
     let name = document.querySelector(".input-name").value;
     let email = document.querySelector(".input-email").value;
     let message = document.querySelector(".input-textarea").value;
     let popup = document.querySelector("#my-popup");
-
-  //  console.log(message);
+    let form = document.getElementById("myForm");
+    const data = { name: name, email: email, message: message};
+    console.log(name, email, message.length, data);
+     
+   
     
-
     
-			if(name === ""){
-				document.getElementById('username').innerHTML =" * Please fill the username";
-				return false;
-			}
-
-			if(!isNaN(name)){
-				document.getElementById('username').innerHTML =" * Invalid user name";
-				return false;
-			}
+    // if(message === ""){
+    //   console.log("message", message);
+    //   document.getElementById('textmessage').innerHTML = " * Message is required";
+    //   return false;
+    // }
 
 
-      if(email === ""){
-				document.getElementById('emailids').innerHTML =" * Email-id is required";
-				return false;
-			}
-			if(email.indexOf('@') <= 0 ){
-				document.getElementById('emailids').innerHTML =" * Email-id is invalid";
-				return false;
-			}
+			// if(name === ""){
+			// 	document.getElementById('username').innerHTML =" * Please fill the username";
+			// 	return false;
+			// }
 
-			if((email.charAt(emails.length-4)!='.') && (emails.charAt(emails.length-3)!='.')){
-				document.getElementById('emailids').innerHTML = " * Email-id is invalid";
-				return false;
-			}
+			// if(!isNaN(name)){
+			// 	document.getElementById('username').innerHTML =" * Invalid user name";
+			// 	return false;
+			// }
 
-      if(message === ""){
-				document.getElementById('textarea').innerHTML = " * Message is required";
-				return false;
-			}
 
-    // let form = document.getElementById("myForm");
-    // form.reset();
+      // if(email === ""){
+			// 	document.getElementById('emailids').innerHTML =" * Email-id is required";
+			// 	return false;
+			// }
+
+			// if(email.indexOf('@') <= 0 ){
+			// 	document.getElementById('emailids').innerHTML =" * Email-id is invalid";
+			// 	return false;
+			// }
+
+
+      // if(message === ""){
+      //   // console.log("message", message);
+      //   document.getElementById('textmessage').innerHTML = " * Message is required";
+      //   return false;
+      // }
+
+      // if(name!== "" && email !== "" && message !== ""){
+      //   form.reset();
+      //   return false;
+      // }
+      
+
 
    
 
 
-    const data = { name: name, email: email, message: message};
+  
 
-    fetch('https://cm-web-mayu-vaib-flqcuu6xbq-uc.a.run.app/v1/ContactUs', {
-      method: 'POST', // or 'PUT'
+  await fetch('https://cm-web-mayu-vaib-flqcuu6xbq-uc.a.run.app/v1/ContactUs', {
+      method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -68,7 +80,7 @@ function myFunction() {
     })
     .then(response => response.json())
     .then(data => {
-      // console.log('Success:', data);
+      form.reset();
       popup.classList.remove('hidden');
       setTimeout(function() {
         $('#my-popup').fadeOut('slow');
@@ -77,6 +89,9 @@ function myFunction() {
     .catch((error) => {
       // console.error('Error:', error);
     });
+
+
+    return false;
 
   }
 
