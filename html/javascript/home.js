@@ -80,11 +80,11 @@ async function myFunction(event) {
     })
     .then(response => response.json())
     .then(data => {
-      form.reset();
       popup.classList.remove('hidden');
       setTimeout(function() {
         $('#my-popup').fadeOut('slow');
     }, 4000); 
+    form.reset();
     })
     .catch((error) => {
       // console.error('Error:', error);
