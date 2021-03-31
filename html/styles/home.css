@@ -1254,6 +1254,12 @@ h4{
     border-radius: 50%; */
     object-fit: contain !important;
   }
+
+  @media (max-width: 1000px){
+   .rounded-circle{
+        display: none;
+    }
+}
   
   /* i.fa {
     display: inline-block;
